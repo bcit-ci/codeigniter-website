@@ -15,7 +15,7 @@ class Mybb extends CI_Model {
      * Database details stored in database config, mybb group.
      * @var
      */
-    protected $db;
+    protected $dbMybb;
 
     /**
      * Are we running in mock mode? 
@@ -23,12 +23,6 @@ class Mybb extends CI_Model {
      * @var boolean
      */
     protected $mock = false;
-
-    /**
-     * Our configuration
-     * @var array
-     */
-    protected $myconfig = array();
 
     //--------------------------------------------------------------------
 
@@ -40,18 +34,13 @@ class Mybb extends CI_Model {
     {
 	parent::__construct();
 
-	// Retrieve our parameters
-	$CI = &get_instance();
-	$CI->load->config('mybb', TRUE);
-	$this->myconfig = $CI->config->config['mybb'];
-
 	// If not running in production, nothing further to do
 	$this->mock = ENVIRONMENT != 'production';
 	if ($this->mock)
 	    return;
 
 	// Get our database instance
-	$this->db = $CI->load->database('mybb', TRUE);
+	$this->dbMybb = $this->load->database('mybb', TRUE);
     }
 
     //--------------------------------------------------------------------
@@ -69,16 +58,16 @@ class Mybb extends CI_Model {
     {
 	// If not running in production, return the mock data
 	if ($this->mock)
-	    return $this->myconfig['bogus_news'];
+	    return $this->config->item('bogus_news', 'mybb_config');
 
 	$where = array(
 	    'replyto' => 0,
 	    'visible' => 1,
-	    'fid' => $this->myconfig['news_forum_id']
+	    'fid' => $this->config->item('news_forum_id', 'mybb_config')
 	);
 
-	$query = $this->db->select('subject, username, dateline, tid')
-		->where_in('username', $this->myconfig['news_usernames'])
+	$query = $this->dbMybb->select('subject, username, dateline, tid')
+		->where_in('username', $this->config->item('news_usernames', 'mybb_config'))
 		->where($where)
 		->limit($limit, 0)
 		->order_by('dateline', $order)
@@ -100,14 +89,14 @@ class Mybb extends CI_Model {
     {
 	// If not running in production, return the mock data
 	if ($this->mock)
-	    return $this->myconfig['bogus_posts'];
+	    return $this->config->item('bogus_posts','mybb_config');
 
 	$where = array(
 	    'visible' => 1,
 	    'deletetime' => 0
 	);
 
-	$query = $this->db->select('tid, subject, username, lastpost, lastposter')
+	$query = $this->dbMybb->select('tid, subject, username, lastpost, lastposter')
 		->where($where)
 		->limit($limit, 0)
 		->order_by('lastpost', $order)

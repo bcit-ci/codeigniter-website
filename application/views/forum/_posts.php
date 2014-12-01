@@ -6,7 +6,7 @@
 	<div class="newsitem">
 	    <div class="date"><?= date('Y.m.d', $item['lastpost']) ?></div>
 	    <p>
-		<a href="<?= config_item('forum_url') . '/thread-' . $item['tid'] . '.html' ?>">
+		<a href="<?= config_item('forum_url') . '/thread-' . $item['tid'] . '-lastpost.html' ?>">
 		    <?= $item['subject'] ?>
 		</a>
 	    </p>
