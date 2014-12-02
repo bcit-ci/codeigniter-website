@@ -40,7 +40,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
  * Code for the news forum in our MyBB
- */$config['news_forum_id'] = 2;
+ */
+$config['news_forum_id'] = 2;
 
 /**
  * An array of usernames to restrict our search for

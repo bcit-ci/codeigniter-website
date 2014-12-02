@@ -6,7 +6,7 @@
 	<div class="newsitem">
 	    <div class="date"><?= date('Y.m.d', $item['dateline']) ?></div>
 	    <p>
-		<a href="<?= config_item('forum_url', 'mybb') . '/thread-' . $item['tid'] . '.html' ?>">
+		<a href="<?= config_item('forum_url') . '/thread-' . $item['tid'] . '.html' ?>">
 		    <?= $item['subject'] ?>
 		</a>
 	    </p>
