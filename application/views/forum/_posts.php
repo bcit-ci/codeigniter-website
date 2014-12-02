@@ -1,3 +1,4 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h3>Active Forum Threads</h3>
 
 <?php if (!empty($posts) && is_array($posts) && count($posts)) : ?>
