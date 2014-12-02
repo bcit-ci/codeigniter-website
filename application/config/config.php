@@ -532,5 +532,17 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 
+/*
+  |--------------------------------------------------------------------------
+  | MY BB Forum configurations
+  |--------------------------------------------------------------------------
+  | @mybb_news_forum_id - Code for the news forum in our MyBB
+  | @mybb_news_usernames - An array of user names to restrict our search for news articles to. This simply helps limit the work to do.
+  | @mybb_forum_url - The link to direct visitors to for our forum
+ */
+$config['mybb_news_forum_id'] = 2;
+$config['mybb_news_usernames'] = array('ciadmin', 'jlp');
+$config['mybb_forum_url'] = 'http://forum.codeigniter.com';
+
 /* End of file config.php */
 /* Location: ./application/config/config.php */
