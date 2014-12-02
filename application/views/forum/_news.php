@@ -1,3 +1,4 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
 <h3>Recent News</h3>
 
 <?php if (!empty($news) && is_array($news) && count($news)) : ?>
