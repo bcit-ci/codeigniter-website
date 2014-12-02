@@ -162,14 +162,16 @@ a .glyphicon {
 }
 .bcit50 {
     background: url('/assets/images/bcit-50.png') right top no-repeat;
-    background-size: 90px 40px;
+    background-size: 100px 44px;
 }
 
 .footer .nav-pills > li > a {
     color: #5B5B5D;
+    border-radius: 0px;
 }
 .footer .nav-pills > li > a:hover {
-    color: #dd4814;
+    color: #ffffff;
+    background-color: #3e3e3e;
 }
 .footer .nav-pills > li.active > a {
     background-color: #aaa;
