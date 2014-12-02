@@ -20,7 +20,7 @@ class Mybb extends CI_Model {
     /**
      * Are we running in mock mode? 
      * If so, fake database results.
-     * @var boolean
+     * @var array
      */
     protected $mockData = array(
         /**
