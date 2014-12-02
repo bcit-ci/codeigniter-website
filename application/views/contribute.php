@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li>The issue has already been fixed (check the develop branch, or look for closed Issues)</li>
                 <li>Is it something really obvious that you fix it yourself?</li>
                 <li>If you are unsure if you have found a bug, then start a new thread in the CodeIgniter forum, in the
-                    <a href="http://forum.codeigniter.com/forum-19.html" target="_blank">Issues section</a>!</li>
+                    <a href="<?= config_item('mybb_forum_url') ?>/forum-19.html" target="_blank">Issues section</a>!</li>
             </ul>
             </p>
             <p>
@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <p class="list-group-item-text">We always need feedback on what works and what does not! Most of the development effort is going into Version 3,
                                 so that is where the need is greatest. If you find something that is definitely a bug, and you are a Github user,
                                 please create a new "issue". If you are not a Github user, or if you are unsure if you have found a bug,
-                                then start a new thread in the CodeIgniter forum <a href="http://forum.codeigniter.com/forum-19.html" target="_blank">Issues section</a>!</p>
+                                then start a new thread in the CodeIgniter forum <a href="<?= config_item('mybb_forum_url') ?>/forum-19.html" target="_blank">Issues section</a>!</p>
                         </div>
                         <div class="list-group-item">
                             <h4 class="list-group-item-heading">Writers</h4>
