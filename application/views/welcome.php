@@ -45,10 +45,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 ?>
 <!-- Big Links -->
-<div class="row">
+<div class="row row-md-flex row-md-flex-wrap">
 
     {biglinks}
-    <div class="col-sm-3">
+    <div class="col-sm-6 col-md-3 col-lg-3">
         <div class="well text-center">
             <div class="stat-icon">
                 <span class="glyphicon glyphicon-{icon}"></span>
@@ -87,7 +87,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <br/>
 
-    <div class="col-md-6 col-sm-6 features">
+    <div class="col-sm-12 col-md-6 features">
         {features1}
         <div class="feature">
             <div class="feature-icon">
@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         {/features1}
      </div>
 
-    <div class="col-md-6 col-sm-6 features">
+    <div class="col-sm-12 col-md-6 features">
         {features2}
         <div class="feature">
             <div class="feature-icon">
