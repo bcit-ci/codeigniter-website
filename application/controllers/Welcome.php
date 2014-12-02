@@ -59,6 +59,7 @@ class Welcome extends Application {
 
     function index()
     {
+	$this->load->config('mybb');
 	$this->load->model('mybb');
 
 	$this->data['title'] = '';

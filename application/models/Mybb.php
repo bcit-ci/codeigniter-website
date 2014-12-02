@@ -11,24 +11,11 @@
 class Mybb extends CI_Model {
 
     /**
-     * Stores connection the mybb database table.
-     * Database details stored in database config, mybb group.
-     * @var
-     */
-    protected $db;
-
-    /**
      * Are we running in mock mode? 
      * If so, fake database results.
      * @var boolean
      */
     protected $mock = false;
-
-    /**
-     * Our configuration
-     * @var array
-     */
-    protected $myconfig = array();
 
     //--------------------------------------------------------------------
 
@@ -40,18 +27,12 @@ class Mybb extends CI_Model {
     {
 	parent::__construct();
 
-	// Retrieve our parameters
-	$CI = &get_instance();
-	$CI->load->config('mybb', TRUE);
-	$this->myconfig = $CI->config->config['mybb'];
-
 	// If not running in production, nothing further to do
 	$this->mock = ENVIRONMENT != 'production';
 	if ($this->mock)
 	    return;
 
-	// Get our database instance
-	$this->db = $CI->load->database('mybb', TRUE);
+	$this->load->database('mybb');
     }
 
     //--------------------------------------------------------------------
@@ -69,16 +50,16 @@ class Mybb extends CI_Model {
     {
 	// If not running in production, return the mock data
 	if ($this->mock)
-	    return $this->myconfig['bogus_news'];
+	    return $this->config->item('bogus_news');
 
 	$where = array(
 	    'replyto' => 0,
 	    'visible' => 1,
-	    'fid' => $this->myconfig['news_forum_id']
+	    'fid' => $this->config->item('news_forum_id')
 	);
 
 	$query = $this->db->select('subject, username, dateline, tid')
-		->where_in('username', $this->myconfig['news_usernames'])
+		->where_in('username', $this->config->item('news_usernames'))
 		->where($where)
 		->limit($limit, 0)
 		->order_by('dateline', $order)
@@ -100,7 +81,7 @@ class Mybb extends CI_Model {
     {
 	// If not running in production, return the mock data
 	if ($this->mock)
-	    return $this->myconfig['bogus_posts'];
+	    return $this->config->item('bogus_posts');
 
 	$where = array(
 	    'visible' => 1,
