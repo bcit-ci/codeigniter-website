@@ -28,12 +28,11 @@ class Mybb extends CI_Model {
 	parent::__construct();
 
 	// If not running in production, nothing further to do
-	$this->mock = ENVIRONMENT != 'production';
+	//$this->mock = ENVIRONMENT != 'production';
 	if ($this->mock)
 	    return;
 
-	// Get our database instance
-	$this->load->database('mybb', TRUE);
+	$this->load->database('mybb');
     }
 
     //--------------------------------------------------------------------

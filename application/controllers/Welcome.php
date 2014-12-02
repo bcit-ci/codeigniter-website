@@ -51,7 +51,6 @@ class Welcome extends Application {
     function __construct()
     {
 	parent::__construct();
-	$this->load->config('mybb');
     }
 
     //-------------------------------------------------------------
@@ -60,6 +59,7 @@ class Welcome extends Application {
 
     function index()
     {
+	$this->load->config('mybb');
 	$this->load->model('mybb');
 
 	$this->data['title'] = '';
