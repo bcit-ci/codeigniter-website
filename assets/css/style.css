@@ -248,6 +248,13 @@ h2, h3 {
     margin-right: 40px;
 }
 
+@media (max-width: 991px) {
+   .jumbotron {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    } 
+}
+
 /* Twitter widget
 -------------------------------------------------- */
 .tweet {
@@ -273,4 +280,40 @@ h2, h3 {
 .newsitem p {
     margin: 0 0 0 6em;
     padding: 0;
+}
+
+/* Columns of same height
+   http://www.bootply.com/126437
+--------------------------------------------------*/
+@media (min-width: 992px) {
+    .row-md-flex, .row-md-flex > div[class*='col-'] {  
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex:1 1 auto;
+    }
+    .row-md-flex-wrap {
+        -webkit-flex-flow: row wrap;
+        align-content: flex-start;
+        flex:0;
+    }
+    .row-md-flex > div[class*='col-'], .container-md-flex > div[class*='col-'] {
+         margin:-.2px; /* hack adjust for wrapping */
+    }
+    .container-md-flex > div[class*='col-'] div,.row-md-flex > div[class*='col-'] div {
+        width:100%;
+    }
+    .flex-md-col {
+        display: flex;
+        display: -webkit-flex;
+        flex: 1 100%;
+        flex-flow: column nowrap;
+    }
+    .flex-md-grow {
+        display: flex;
+        -webkit-flex: 2;
+        flex: 2;
+    }
 }
