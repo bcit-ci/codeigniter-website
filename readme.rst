@@ -36,7 +36,7 @@ Some of the programming design decisions reflected:
 -   The CodeIgniter framework folder has been moved outside of the webapp,
     in this case to a "system3" folder at the same hierarchy level as the 
     document root.
--   An ".htaccess" file is incorporated, to configure Apache to remote
+-   An ".htaccess" file is incorporated, to configure Apache to remove
     index.php from any URLs.
 
 *******
