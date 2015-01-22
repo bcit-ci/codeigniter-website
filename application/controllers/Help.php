@@ -69,11 +69,11 @@ class Help extends Application {
         $this->data['pagebody'] = 'about';
 
         $this->data['council'] = array(
-            array('name' => 'Andreas Pfotenhauer', 'from' => 'Germany', 
-		'avatar' => 'andreas.png', 'roles' => 'Council, repository help', 
-		'description' => '', 
-                'badges' => array(),
-                ),
+//            array('name' => 'Andreas Pfotenhauer', 'from' => 'Germany', 
+//		'avatar' => 'andreas.png', 'roles' => 'Council, repository help', 
+//		'description' => '', 
+//                'badges' => array(),
+//                ),
             array('name' => 'Andrey Andreev', 'from' => 'Bulgaria', 
 		'avatar' => 'andrey.jpeg', 'roles' => 'Codebase gatekeeper, Council', 
 		'description' => '', 
@@ -90,14 +90,14 @@ class Help extends Application {
                     array('badge'=>'github', 'handle' => 'benedmunds')
                     ),
                 ),
-            array('name' => 'David Wosnitza', 'from' => 'Germany', 
-		'avatar' => 'david.jpg', 'roles' => 'Council', 
-		'description' => 'Software Engineer, WebDev, Musician, Long term CodeIgniter enthusiast.', 
-                'badges' => array(
-                    array('badge'=>'twitter', 'handle' => '_druu'), 
-                    array('badge'=>'github', 'handle' => '_druu')
-                    ),
-                ),
+//            array('name' => 'David Wosnitza', 'from' => 'Germany', 
+//		'avatar' => 'david.jpg', 'roles' => 'Council', 
+//		'description' => 'Software Engineer, WebDev, Musician, Long term CodeIgniter enthusiast.', 
+//                'badges' => array(
+//                    array('badge'=>'twitter', 'handle' => '_druu'), 
+//                    array('badge'=>'github', 'handle' => '_druu')
+//                    ),
+//                ),
             array('name' => 'Jim Parry', 'from' => 'Canada', 
 		'avatar' => 'jlp.jpg', 'roles' => 'Project lead, council, website', 
 		'description' => 'Educator, web developer', 

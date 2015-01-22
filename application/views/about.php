@@ -64,7 +64,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
     <div class="lead text-info">Our Website</div>
     <div>We have had a lot of enthusiasm about our website, both good and bad.</div>
-    <div>We are grateful for the design and code contributions from Lonnie Ezell (USA), Michał Śniatała (Poland)
+    <div>We are grateful for the council contributions from Andreas Pfotenhauer 
+	(Germany), and David Wosnitza (Germany), helping to get CodeIgniter
+	back on track :).</div>
+    <div>We are grateful for the design and code contributions from 
+	Lonnie Ezell (USA), Michał Śniatała (Poland)
         and Raymond King (USA).</div>
     <div>Thank you, as well, to all of the community members who have made constructive suggestions to improve
     the design and usability of the site!</div>
