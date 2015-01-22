@@ -1,13 +1,12 @@
 <?php
-
 /**
  * CodeIgniter
  *
- * An open source application development framework for PHP 5.2.4 or newer
+ * An open source application development framework for PHP
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +29,7 @@
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
  * @since	Version 1.0.0
@@ -70,11 +69,11 @@ class Help extends Application {
         $this->data['pagebody'] = 'about';
 
         $this->data['council'] = array(
-            array('name' => 'Andreas Pfotenhauer', 'from' => 'Germany', 
-		'avatar' => 'andreas.png', 'roles' => 'Council, repository help', 
-		'description' => '', 
-                'badges' => array(),
-                ),
+//            array('name' => 'Andreas Pfotenhauer', 'from' => 'Germany', 
+//		'avatar' => 'andreas.png', 'roles' => 'Council, repository help', 
+//		'description' => '', 
+//                'badges' => array(),
+//                ),
             array('name' => 'Andrey Andreev', 'from' => 'Bulgaria', 
 		'avatar' => 'andrey.jpeg', 'roles' => 'Codebase gatekeeper, Council', 
 		'description' => '', 
@@ -91,14 +90,14 @@ class Help extends Application {
                     array('badge'=>'github', 'handle' => 'benedmunds')
                     ),
                 ),
-            array('name' => 'David Wosnitza', 'from' => 'Germany', 
-		'avatar' => 'david.jpg', 'roles' => 'Council', 
-		'description' => 'Software Engineer, WebDev, Musician, Long term CodeIgniter enthusiast.', 
-                'badges' => array(
-                    array('badge'=>'twitter', 'handle' => '_druu'), 
-                    array('badge'=>'github', 'handle' => '_druu')
-                    ),
-                ),
+//            array('name' => 'David Wosnitza', 'from' => 'Germany', 
+//		'avatar' => 'david.jpg', 'roles' => 'Council', 
+//		'description' => 'Software Engineer, WebDev, Musician, Long term CodeIgniter enthusiast.', 
+//                'badges' => array(
+//                    array('badge'=>'twitter', 'handle' => '_druu'), 
+//                    array('badge'=>'github', 'handle' => '_druu')
+//                    ),
+//                ),
             array('name' => 'Jim Parry', 'from' => 'Canada', 
 		'avatar' => 'jlp.jpg', 'roles' => 'Project lead, council, website', 
 		'description' => 'Educator, web developer', 
