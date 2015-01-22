@@ -57,7 +57,7 @@ $config['footer_choices'] = array(
     )
 );
 
-$config['stable_version'] = '2.2.0';
+$config['stable_version'] = '2.2.1';
 
 /*
   |--------------------------------------------------------------------------
