@@ -2,11 +2,11 @@
 /**
  * CodeIgniter
  *
- * An open source application development framework for PHP 5.2.4 or newer
+ * An open source application development framework for PHP
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@
  * @package	CodeIgniter
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
  * @since	Version 1.0.0
@@ -111,8 +111,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         {/features2}
     </div>
 
-    <div class="col-md-12 col-sm-12 text-center title title-end">
-        There are a number of sites which compare PHP MVC frameworks. Check them out for yourself :)<br>
-        Some of the ones I found useful are <a href="http://www.techempower.com/benchmarks/">TechEmpower</a>, <a href="http://systemsarchitect.net/performance-benchmark-of-popular-php-frameworks/">Systemsarchitect</a>, and <a href="http://socialcompare.com/en/comparison/php-frameworks-comparison">SocialCompare</a>.
-    </div>
 </div>
