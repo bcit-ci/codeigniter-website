@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
+ * Copyright (c) 2014-2015, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -27,9 +27,9 @@
  * THE SOFTWARE.
  *
  * @package	CodeIgniter
- * @author	EllisLab Dev Team
+ * @author	CodeIgniter Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014-2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
  * @since	Version 1.0.0
@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     CodeIgniter 3.x is the branch under active development.<br><br>
                     A few issues remain to be resolved, and it will not be released until those are put to bed.
                     Version 3 is almost ready for prime time, and many sites are actually using it in production already.<br><br>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/develop.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (develop)</a>
+                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0rc.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate)</a>
                 </div>
             </div>
         </div>
