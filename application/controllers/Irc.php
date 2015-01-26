@@ -63,4 +63,3 @@ class Irc extends Application {
 
 }
 
-/* End of file irc.php */

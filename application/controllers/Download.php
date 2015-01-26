@@ -63,5 +63,3 @@ class Download extends Application {
     }
 
 }
-
-/* End of file download.php */

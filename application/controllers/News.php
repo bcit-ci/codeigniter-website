@@ -62,5 +62,3 @@ class News extends Application {
     }
 
 }
-
-/* End of file news.php */

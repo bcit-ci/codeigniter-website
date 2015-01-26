@@ -62,5 +62,3 @@ class Info extends Application {
     }
 
 }
-
-/* End of file info.php */

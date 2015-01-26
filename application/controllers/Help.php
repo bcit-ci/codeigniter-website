@@ -132,5 +132,3 @@ class Help extends Application {
     }
 
 }
-
-/* End of file help.php */
