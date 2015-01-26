@@ -65,5 +65,3 @@ class Contribute extends Application {
     }
 
 }
-
-/* End of file contribute.php */

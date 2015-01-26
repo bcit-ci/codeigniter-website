@@ -154,6 +154,3 @@ return array(
     'svg' => array('image/svg+xml', 'application/xml', 'text/xml'),
     'vcf' => 'text/x-vcard'
 );
-
-/* End of file mimes.php */
-/* Location: ./application/config/mimes.php */

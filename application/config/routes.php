@@ -58,6 +58,3 @@ $route['translate_uri_dashes'] = FALSE;
 $route['user-guide/(.+)'] = 'user_guide/$1';
 $route['userguide/(.+)'] = 'user_guide/$1';
 $route['downloads/(.+)'] = 'download/$1';
-
-/* End of file routes.php */
-/* Location: ./application/config/routes.php */

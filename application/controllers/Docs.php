@@ -62,5 +62,3 @@ class Docs extends Application {
     }
 
 }
-
-/* End of file docs.php */

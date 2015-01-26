@@ -507,6 +507,3 @@ $config['proxy_ips'] = '';
 $config['mybb_news_forum_id'] = 2;
 $config['mybb_news_usernames'] = array('ciadmin', 'jlp');
 $config['mybb_forum_url'] = 'http://forum.codeigniter.com';
-
-/* End of file config.php */
-/* Location: ./application/config/config.php */

@@ -63,5 +63,3 @@ class Community extends Application {
     }
 
 }
-
-/* End of file community.php */

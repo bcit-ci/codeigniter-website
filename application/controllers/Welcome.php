@@ -111,4 +111,3 @@ class Welcome extends Application {
 
 }
 
-/* End of file welcome.php */

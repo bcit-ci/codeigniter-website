@@ -19,5 +19,3 @@ $config = array(
     ),
 );
 
-/* End of file memcached.php */
-/* Location: ./application/config/memcached.php */
