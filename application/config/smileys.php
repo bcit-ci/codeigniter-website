@@ -62,6 +62,3 @@ $smileys = array(
     ':exclaim:' => array('exclaim.gif', '19', '19', 'exclaim'),
     ':question:' => array('question.gif', '19', '19', 'question')
 );
-
-/* End of file smileys.php */
-/* Location: ./application/config/smileys.php */
