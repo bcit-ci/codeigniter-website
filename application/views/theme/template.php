@@ -49,7 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="robots" content="noindex, nofollow"/>
         <title>{pagetitle}</title>
         <link rel="icon" type="image/png" href="/assets/images/ci-icon.png" />
         <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" media="screen"/>
