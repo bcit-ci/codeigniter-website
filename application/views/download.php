@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     CodeIgniter 3.x is the branch under active development.<br><br>
                     A few issues remain to be resolved, and it will not be released until those are put to bed.
                     Version 3 is almost ready for prime time, and many sites are actually using it in production already.<br><br>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0rc.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate)</a>
+                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0rc2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate 2)</a>
                 </div>
             </div>
         </div>
