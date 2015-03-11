@@ -66,23 +66,23 @@ class Welcome extends Application {
 	$this->data['pagebody'] = 'welcome';
 
 	$this->data['biglinks'] = array(
-	    array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/2.2.1.zip',
+	    array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.0rc3.zip',
 		'label' => 'Download', 'text' => 'The latest is <b>Version ' . $this->config->item('stable_version') . '</b>'),
-	    array('icon' => 'book', 'link' => 'http://www.codeigniter.com/user_guide',
+	    array('icon' => 'book', 'link' => 'http://www.codeigniter.com/userguide3',
 		'label' => 'Read the Manual', 'text' => 'Clear documentation'),
-	    array('icon' => 'random', 'link' => 'https://github.com/bcit-ci/CodeIgniter',
-		'label' => 'On GitHub', 'text' => 'Fork CI and Hack Away'),
 	    array('icon' => 'user', 'link' => 'http://forum.codeigniter.com',
-		'label' => 'Discuss Things', 'text' => 'View the Community Forums'),
+		'label' => 'View the Forums', 'text' => 'Get Support &amp; Discuss Things'),
+	    array('icon' => 'random', 'link' => 'https://github.com/bcit-ci/CodeIgniter',
+		'label' => 'On GitHub', 'text' => 'Fix Bugs or Add Features'),
 	);
 
 	$this->data['features1'] = array(
 	    array('icon' => 'star-empty', 'label' => 'Framework with a small footprint',
-		'text' => 'CodeIgniter 2.2 has a 2.2MB download, including the user guide. Honest, the size is coincidental! The framework itself takes up less than 500KB, uncompressed.'),
+		'text' => 'CodeIgniter 3 has a 2MB download, including the user guide.'),
 	    array('icon' => 'book', 'label' => 'Clear documentation',
 		'text' => 'The CodeIgniter User Guide comes with the download. It contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.'),
 	    array('icon' => 'hdd', 'label' => 'Compatibility with standard hosting',
-		'text' => 'CodeIgniter 2.2 only needs PHP 5.1.6, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
+		'text' => 'CodeIgniter 3 only needs PHP 5.2.4, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
 	    array('icon' => 'road', 'label' => 'No restrictive coding rules',
 		'text' => ' Use your own coding and naming conventions, with only a few caveats that deal with classname conflicts. CodeIgniter looks to empower you, not shackle you.'),
 	    array('icon' => 'send', 'label' => 'Simple solutions over complexity',
@@ -95,7 +95,7 @@ class Welcome extends Application {
 	    array('icon' => 'ok', 'label' => 'No large-scale monolithic libraries',
 		'text' => 'CodeIgniter is not trying to be all things to all people. It is a lean MVC framework, with enough capabilities to improve your productivity, while providing for third-party addons/plugins for additional functionality.'),
 	    array('icon' => 'list-alt', 'label' => 'Nearly zero configuration',
-		'text' => ' Much of the CodeIgniter configuration is done by convention, for instance putting models in a "models" folder. There are still a number of configuration options available, all managed through scripts in the "config" folder.'),
+		'text' => ' Much of the CodeIgniter configuration is done by convention, for instance putting models in a "models" folder. There are still a number of configuration options available, through scripts in the "config" folder.'),
 	    array('icon' => 'leaf', 'label' => 'No need for template language',
 		'text' => ' CodeIgniter comes with a simple, substitution based, templating tool. Addons/plugins are available for most of the full-blown templating engines, if that is what you are used to.'),
 	    array('icon' => 'thumbs-up', 'label' => 'Spend more time away from the computer',
