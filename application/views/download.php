@@ -50,32 +50,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-12 col-sm-12 text-center title">
             <span class="glyphicon glyphicon-download big-glyph"></span>
-            CodeIgniter comes in two main flavors: CodeIgniter 2.x and CodeIgniter 3.x
+            CodeIgniter comes in two main flavors: CodeIgniter 3.x and CodeIgniter 2.x
         </div>
 
         <div class="col-md-6 col-sm-6">
             <div class="bs-component">
                 <div class="well download">
-                    <h3 class="text-center">CodeIgniter 2.x</h3>
+                    <h3 class="text-center">CodeIgniter 3.x</h3>
 
-                    CodeIgniter 2.2.1 is the current stable version of the framework.<br><br>
-                    The 2.x branch was originally released January 2011, 
-		    the next major update (2.1.0) came in the fall of 2011, 
-		    version (2.2.0) came out in July, 2014,
-		    the current version (2.2.1) came out in January, 2015.<br><br>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.1.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 2.2 (stable)</a>
+                    CodeIgniter 3.0 is the current version of the framework.<br><br>
+                    There have been a number of refinements since version 2.x, notably with
+		    the database and session handling. Development of this version is ongoing.<br><br>
+                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0rc3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate 3)</a>
+                    <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide to read offline</a>
+                    <a href="https://github.com/bcit-ci/codeigniter3-translations/archive/RC2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the system message translations</a>
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-sm-6">
             <div class="bs-component">
                 <div class="well download">
-                    <h3 class="text-center">CodeIgniter 3.x</h3>
+                    <h3 class="text-center">CodeIgniter 2.x</h3>
 
-                    CodeIgniter 3.x is the branch under active development.<br><br>
-                    A few issues remain to be resolved, and it will not be released until those are put to bed.
-                    Version 3 is almost ready for prime time, and many sites are actually using it in production already.<br><br>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0rc2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate 2)</a>
+                    CodeIgniter 2.2.1 is the legacy version of the framework.<br><br>
+                    The 2.x branch was originally released January 2011, 
+		    the next major update (2.1.0) came in the fall of 2011, 
+		    version (2.2.0) came out in July, 2014,
+		    the current version (2.2.1) came out in January, 2015.<br><br>
+                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.1.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 2.2 (stable)</a>
                 </div>
             </div>
         </div>

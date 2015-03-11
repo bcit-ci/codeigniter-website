@@ -121,9 +121,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <h4 class="list-group-item-heading">Coders</h4>
                             <p class="list-group-item-text">If you would like to get involved in helping to build the next version of CodeIgniter, join us on
                                 <a href="https://github.com/bcit-ci/CodeIgniter" target="_blank">Github</a>!
-                                A detailed <a href="/userguide3/contributing/index.html">contribution guide</a> is in the upcoming
-                                version 3 user guide, but the main points are to make sure your code conforms
-                                to our <a href="/user_guide/general/styleguide.html">style guide</a>, that it is properly documented, and that you use the
+                                A detailed <a href="/userguide3/contributing/index.html">contribution guide</a> is in the 
+				User Guide, but the main points are to make sure your code conforms
+                                to our <a href="/userguide3/general/styleguide.html">style guide</a>, that it is properly documented, and that you use the
                                 <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">Git-Flow</a> branching model.</p>
                         </div>
                         <div class="list-group-item">
