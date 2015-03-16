@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    the database and session handling. Development of this version is ongoing.<br><br>
                     <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0rc3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate 3)</a>
                     <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide to read offline</a>
-                    <a href="https://github.com/bcit-ci/codeigniter3-translations/archive/RC2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the system message translations</a>
+                    <a href="https://github.com/bcit-ci/codeigniter3-translations/archive/RC3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the system message translations</a>
                 </div>
             </div>
         </div>
