@@ -79,8 +79,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    the next major update (2.1.0) came in the fall of 2011, 
 		    version (2.2.0) came out in July, 2014, and
 		    the current version (2.2.1) came out in January, 2015.<br><br>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.1.zip" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span> View Code On Github</a>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 2.2 (stable)</a>
+                    <a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span> View Code On Github</a>
+                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.1.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 2.2 (stable)</a>
                 </div>
             </div>
         </div>
