@@ -22,7 +22,7 @@ $config['footer_choices'] = array(
     )
 );
 
-$config['stable_version'] = '3.0rc3';
+$config['stable_version'] = '3.0.0';
 
 /*
   |--------------------------------------------------------------------------
