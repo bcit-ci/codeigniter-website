@@ -65,6 +65,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.0.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0</a>
                     <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide to read offline</a>
                     <a href="/data/CodeIgniter3-userguide-epub.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide in epub format</a>
+		    the database and session handling. Development of this version is ongoing.<br><br>
+		    <a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-warning btn-block"><span class="glyphicons glyphicons-link"></span>View Code On Github</a>
+		    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.0.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate 3)</a>
+                    <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide to read offline</a>
                     <a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.0.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the system message translations</a>
                 </div>
             </div>
