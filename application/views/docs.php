@@ -66,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     CodeIgniter 3.x is licensed under the 
 		    <a href="/user_guide/license.html">MIT License</a>.
                     <br><br>
-                    <a href="http://www.codeigniter.com/user_guide" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> View User Guide (3.x) online</a>
+                    <a href="/user_guide" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> View User Guide (3.x) online</a>
                     <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.x) to read offline</a>
                     <a href="/data/CodeIgniter3-userguide-epub.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide in epub format</a>
                 </div>
@@ -87,7 +87,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     CodeIgniter 2.x is licensed under the  
 		    <a href="/userguide2/license.html">EllisLab open source license</a>.
                     <br><br>
-                    <a href="http://www.codeigniter.com/userguide2" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-share"></span> View User Guide  (2.x) online</a>
+                    <a href="/userguide2" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-share"></span> View User Guide  (2.x) online</a>
                     <a href="/data/CodeIgniter2-stable-user_guide.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide  (2.x) to read offline</a>
                 </div>
             </div>
