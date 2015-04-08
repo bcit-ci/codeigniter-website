@@ -58,12 +58,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="well download">
                     <h3 class="text-center">CodeIgniter 3.x</h3>
 
-                    CodeIgniter 3.0 is the current version of the framework.<br><br>
+                    CodeIgniter 3.0.0 is the current version of the framework.<br><br>
                     There have been a number of refinements since version 2.x, notably with
 		    the database and session handling. Development of this version is ongoing.<br><br>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0rc3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate 3)</a>
+		    <a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-warning btn-block"><span class="glyphicons glyphicons-link"></span>View Code On Github</a>
+		    <a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.0.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0 (release candidate 3)</a>
                     <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide to read offline</a>
-                    <a href="https://github.com/bcit-ci/codeigniter3-translations/archive/RC3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the system message translations</a>
+                    <a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.0.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the system message translations</a>
                 </div>
             </div>
         </div>
@@ -75,9 +76,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     CodeIgniter 2.2.1 is the legacy version of the framework.<br><br>
                     The 2.x branch was originally released January 2011, 
 		    the next major update (2.1.0) came in the fall of 2011, 
-		    version (2.2.0) came out in July, 2014,
+		    version (2.2.0) came out in July, 2014, and
 		    the current version (2.2.1) came out in January, 2015.<br><br>
-                    <a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.1.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 2.2 (stable)</a>
+		    <a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span> View Code On Github</a>
+		    <a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.1.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 2.2 (stable)</a>
                 </div>
             </div>
         </div>

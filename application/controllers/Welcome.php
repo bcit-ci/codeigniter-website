@@ -66,9 +66,9 @@ class Welcome extends Application {
 	$this->data['pagebody'] = 'welcome';
 
 	$this->data['biglinks'] = array(
-	    array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.0rc3.zip',
+	    array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.0.0.zip',
 		'label' => 'Download', 'text' => 'The latest is <b>Version ' . $this->config->item('stable_version') . '</b>'),
-	    array('icon' => 'book', 'link' => 'http://www.codeigniter.com/userguide3',
+	    array('icon' => 'book', 'link' => 'http://www.codeigniter.com/user_guide',
 		'label' => 'Read the Manual', 'text' => 'Clear documentation'),
 	    array('icon' => 'user', 'link' => 'http://forum.codeigniter.com',
 		'label' => 'View the Forums', 'text' => 'Get Support &amp; Discuss Things'),
