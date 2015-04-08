@@ -57,7 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="well download">
                     <h3 class="text-center">CodeIgniter 3.x</h3>
 
-                    CodeIgniter 3.0 is the current version of the framework, under active development.<br><br>
+                    CodeIgniter 3.0.0 is the current version of the framework, under active development.<br><br>
 
                     Its User Guide contains an introduction, tutorial, a number 
 		    of "how to" guides, and then reference documentation for 
@@ -68,6 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <br><br>
                     <a href="http://www.codeigniter.com/userguide3" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> View User Guide (3.x) online</a>
                     <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.x) to read offline</a>
+                    <a href="/data/CodeIgniter3-userguide-epub.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide in epub format</a>
                 </div>
             </div>
         </div>
