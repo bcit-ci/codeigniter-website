@@ -66,6 +66,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     CodeIgniter 3.x is licensed under the 
 		    <a href="/user_guide/license.html">MIT License</a>.
                     <br><br>
+		    <strong>Note:</strong> The user guide linked to below is periodically rebuilt from the
+		    "develop" branch of the project, and may address un-released features.
+		    The user guide that corresponds exactly to the released framework is bundled
+		    with the download.<br/><br/>
                     <a href="/user_guide" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> View User Guide (3.x) online</a>
                     <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.x) to read offline</a>
                     <a href="/data/CodeIgniter3-userguide-epub.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide in epub format</a>
@@ -78,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="well download">
                     <h3 class="text-center">CodeIgniter 2.x</h3>
 
-                    CodeIgniter 2.2.1 is the legacy version of the framework.<br><br>
+                    CodeIgniter 2.2.2 is the legacy version of the framework.<br><br>
 
                     Its User Guide contains an introduction, tutorial, a number
 		    of "how to" guides, and then reference documentation 
