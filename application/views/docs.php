@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="well download">
                     <h3 class="text-center">CodeIgniter 2.x</h3>
 
-                    CodeIgniter 2.2.2 is the legacy version of the framework.<br><br>
+                    CodeIgniter 2.2.3 is the legacy version of the framework.<br><br>
 
                     Its User Guide contains an introduction, tutorial, a number
 		    of "how to" guides, and then reference documentation 
