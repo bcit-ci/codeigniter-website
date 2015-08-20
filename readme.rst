@@ -58,7 +58,8 @@ Project Folders
 /application    the obvious
 /assets         CSS, javascript & media
 /data           zipped files for downloading, avatars
-/user_guide     the user guide for CI2
+/user_guide     symbolic link to the current user guide
+/userguide2     the user guide for CI2
 /userguide3     the user guide for CI3
 
 
