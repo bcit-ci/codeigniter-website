@@ -528,5 +528,5 @@ $config['proxy_ips'] = '';
   | @mybb_forum_url - The link to direct visitors to for our forum
  */
 $config['mybb_news_forum_id'] = 2;
-$config['mybb_news_usernames'] = array('ciadmin', 'jlp');
+$config['mybb_news_usernames'] = array('ciadmin', 'jlp', 'kilishan', 'Narf');
 $config['mybb_forum_url'] = 'http://forum.codeigniter.com';
