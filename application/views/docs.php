@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		    The user guide that corresponds exactly to the released framework is bundled
 		    with the download.<br/><br/>
                     <a href="/user_guide" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> View User Guide (3.x) online</a>
-                    <a href="/data/CodeIgniter-3.0.1-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.0.1) to read offline</a>
+                    <a href="/data/CodeIgniter-3.0.2-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.0.2) to read offline</a>
 <!--                    <a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.x) to read offline</a>
                     <a href="/data/CodeIgniter3-userguide-epub.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide in epub format</a>
 -->

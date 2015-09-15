@@ -73,6 +73,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <div class="col-md-12 col-sm-12">
+            <div class="alert alert-info" role="alert">
+                Security issues should be reported with an email to our
+                <a href="mailto:security@codeigniter.com">security team</a>, rather
+                than being brought up on the forum or raised as a Github issue, thanks!
+            </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12">
             <div class="bs-component">
                 <div class="well download">
                     <h3>Not a Programmer?</h3>
