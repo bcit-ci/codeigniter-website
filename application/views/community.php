@@ -53,6 +53,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <div class="col-md-12 col-sm-12">
+            <div class="alert alert-info" role="alert">
+                Security issues should be reported with an email to our
+                <a href="mailto:security@codeigniter.com">security team</a>, rather
+                than being brought up on the forum or raised as a Github issue, thanks!
+            </div>
+        </div>
+
+        <div class="col-md-12 col-sm-12">
             <div class="bs-component">
                 <div class="well download">
                     <h3>Forum</h3>
@@ -66,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li>External Resources (Addons, Jobs, Learn More, and Spotlight)</li>
                     </ul>
                     </p>
-		    <p><strong>The forum is where you can ask for help or discuss issues you are having with framework.</strong></p>
+                    <p><strong>The forum is where you can ask for help or discuss issues you are having with framework.</strong></p>
                     <p>
                         The previous CodeIgniter forums are archived on EllisLab's server. 
                         EllisLab has provided the archived posts to us, and they are being transferred to the new forum, so all the content is together.
@@ -84,15 +92,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <p>
                         CodeIgniter has its own Internet Relay Chat channel, #codeigniter.<br>
                         You can connect to it using your favorite IRC client, or use 
-			<a href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22">webchat</a>. 
-			Our website's IRC page has an embedded webchat iframe.
+                        <a href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22">webchat</a>. 
+                        Our website's IRC page has an embedded webchat iframe.
                     </p>
-		    <p>The IRC channel will often have over 80 people in it, but many of those
-			are in different timezones, and they stay logged in to catch up
-			on conversations when they are next around.
-			If you are new to IRC, read this 
-			<a href="http://workaround.org/getting-help-on-irc" target="_blank">introduction</a> 
-			first.</p>
+                    <p>The IRC channel will often have over 80 people in it, but many of those
+                        are in different timezones, and they stay logged in to catch up
+                        on conversations when they are next around.
+                        If you are new to IRC, read this 
+                        <a href="http://workaround.org/getting-help-on-irc" target="_blank">introduction</a> 
+                        first.</p>
                     <a class="btn btn-default btn-block" href="irc"><span class="glyphicon glyphicon-share"></span> Visit I.R.C.</a>
                 </div>
             </div>
@@ -106,11 +114,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <p>
                         The development action takes place on Github. See the contribute page for more details.
                     </p>
-		    <p><strong>The Github repository is where you can file bug reports (github issues),
-			    or where you can submit pull requests for enhancements to or fixes for framework.
-			    Github is *not* for support or help ... use the forum instead.</strong></p>
-		    <p>Github issues are also used for tracking planned and approved enhancements,
-			often tied in to specific releases.</p>
+                    <p><strong>The Github repository is where you can file bug reports (github issues),
+                            or where you can submit pull requests for enhancements to or fixes for framework.
+                            Github is *not* for support or help ... use the forum instead.</strong></p>
+                    <p>Github issues are also used for tracking planned and approved enhancements,
+                        often tied in to specific releases.</p>
                     <br/>
                     <a class="btn btn-default btn-block" href="https://github.com/bcit-ci/CodeIgniter/"><span class="glyphicon glyphicon-share"></span> Visit Github</a>
                 </div>
