@@ -108,7 +108,7 @@ class Welcome extends Application {
 		$this->data['posts'] = $this->load->view('forum/_posts', array('posts' => $this->mybb->getRecentPosts(5)), true);
 
 		// Fetch Github info
-		$this->data['github_repo'] = $this->github_api->get_repo_info('bcit-ci', 'CodeIgniter');
+		$this->data['github_widget'] = $this->load->view('theme/_github_widget', array('github_info' => $this->github_api->get_repo_info('bcit-ci', 'CodeIgniter')), true);
 
 		$this->render();
 	}
