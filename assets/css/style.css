@@ -284,6 +284,25 @@ h2, h3 {
     padding: 0;
 }
 
+/* Buttons
+-------------------------------------------------- */
+.btn-white {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.btn-white:focus,
+.btn-white.focus {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+.btn-white:hover {
+    color: #000000;
+    background-color: #ECECEC;
+}
+
 /* Columns of same height
    http://www.bootply.com/126437
 --------------------------------------------------*/
