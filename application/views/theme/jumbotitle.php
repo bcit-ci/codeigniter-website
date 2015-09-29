@@ -18,20 +18,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row text-left">
               <?php if ( ! empty($github_repo) && is_array($github_repo) && count($github_repo)) : ?>
                 <span class="github-btn github-btn-large">
-                  <a class="gh-btn" id="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
+                  <a class="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
                     <i class="fa fa-github"></i>
-                    <span class="gh-text" id="gh-text">Star</span>
+                    <span class="gh-text">Star</span>
                   </a>
-                  <a class="gh-count" id="gh-count" href="<?= $github_repo['html_url']; ?>/stargazers" target="_blank">
+                  <a class="gh-count" href="<?= $github_repo['html_url']; ?>/stargazers" target="_blank">
                     <?= number_format($github_repo['stargazers_count']) ?>
                   </a>
                 </span>
                 <span class="github-btn github-btn-large">
-                  <a class="gh-btn" id="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
+                  <a class="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
                     <i class="fa fa-code-fork"></i>
-                    <span class="gh-text" id="gh-text">Fork</span>
+                    <span class="gh-text">Fork</span>
                   </a>
-                  <a class="gh-count" id="gh-count" href="<?= $github_repo['html_url']; ?>/network" target="_blank">
+                  <a class="gh-count" href="<?= $github_repo['html_url']; ?>/network" target="_blank">
                     <?= number_format($github_repo['forks_count']) ?>
                   </a>
                 </span>
