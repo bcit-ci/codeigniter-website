@@ -15,22 +15,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <p>CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need
                 a simple and elegant toolkit to create full-featured web applications.</p>
 
-            <?php if ( ! empty($github_repo) && is_array($github_repo) && count($github_repo)) : ?>
             <div class="row text-left">
-              <div class="btn-group">
-                <a href="<?= $github_repo['html_url'] ?>" target="_blank" type="button" class="btn btn-xs btn-white">
-                  <i class="fa fa-lg fa-github"></i>
-                </a>
-                <button type="button" class="btn btn-xs btn-white disabled">
-                  <i class="fa fa-star fa-lg"></i> <?= number_format($github_repo['stargazers_count']) ?>
-                </button>
-                <button type="button" class="btn btn-xs btn-white disabled">
-                  <i class="fa fa-code-fork fa-lg"></i> <?= number_format($github_repo['forks_count']) ?>
-                </button>
-              </div>
-            </div>
-            <?php endif; ?>
-            <div class="row text-right">
+              <?php if ( ! empty($github_repo) && is_array($github_repo) && count($github_repo)) : ?>
+                <span class="github-btn github-btn-large">
+                  <a class="gh-btn" id="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
+                    <i class="fa fa-github"></i>
+                    <span class="gh-text" id="gh-text">Star</span>
+                  </a>
+                  <a class="gh-count" id="gh-count" href="<?= $github_repo['html_url']; ?>/stargazers" target="_blank">
+                    <?= number_format($github_repo['stargazers_count']) ?>
+                  </a>
+                </span>
+                <span class="github-btn github-btn-large">
+                  <a class="gh-btn" id="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
+                    <i class="fa fa-code-fork"></i>
+                    <span class="gh-text" id="gh-text">Fork</span>
+                  </a>
+                  <a class="gh-count" id="gh-count" href="<?= $github_repo['html_url']; ?>/network" target="_blank">
+                    <?= number_format($github_repo['forks_count']) ?>
+                  </a>
+                </span>
+              <?php endif; ?>
+
               <a class="twitter-follow-button"
                  href="https://twitter.com/CodeIgniter"
                  data-show-count="true"
@@ -38,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                  data-size="large"
                  data-lang="en">
                   @CodeIgniter
-              </a>
+              </a>              
             </div>
         </div>
     </div>
