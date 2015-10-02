@@ -36,7 +36,6 @@
  * @since	Version 1.0.0
  * @filesource
  */
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
@@ -50,18 +49,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Contribute extends Application {
 
-    function __construct() {
-        parent::__construct();
-    }
+	function __construct()
+	{
+		parent::__construct();
+	}
 
-    //-------------------------------------------------------------
-    //  The normal pages
-    //-------------------------------------------------------------
+//-------------------------------------------------------------
+//  The normal pages
+//-------------------------------------------------------------
 
-    function index() {
-        $this->data['title'] = "Contribute to CodeIgniter";
-        $this->data['pagebody'] = 'contribute';
-        $this->render();
-    }
+	function index()
+	{
+		$this->data['title'] = "Contribute to CodeIgniter";
+		$this->data['pagebody'] = 'contribute';
+		$this->render();
+	}
 
 }

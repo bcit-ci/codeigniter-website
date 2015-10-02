@@ -68,39 +68,39 @@ class Welcome extends Application {
 
 		$this->data['biglinks'] = array(
 			array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.0.2.zip',
-			'label' => 'Download', 'text' => 'The latest is <b>Version ' . $this->config->item('stable_version') . '</b>'),
+				'label' => 'Download', 'text' => 'The latest is <b>Version ' . $this->config->item('stable_version') . '</b>'),
 			array('icon' => 'book', 'link' => 'http://www.codeigniter.com/user_guide',
-			'label' => 'Read the Manual', 'text' => 'Clear documentation'),
+				'label' => 'Read the Manual', 'text' => 'Clear documentation'),
 			array('icon' => 'user', 'link' => 'http://forum.codeigniter.com',
-			'label' => 'View the Forums', 'text' => 'Get Support &amp; Discuss Things'),
+				'label' => 'View the Forums', 'text' => 'Get Support &amp; Discuss Things'),
 			array('icon' => 'random', 'link' => 'https://github.com/bcit-ci/CodeIgniter',
-			'label' => 'On GitHub', 'text' => 'Fix Bugs or Add Features'),
+				'label' => 'On GitHub', 'text' => 'Fix Bugs or Add Features'),
 		);
 
 		$this->data['features1'] = array(
 			array('icon' => 'star-empty', 'label' => 'Framework with a small footprint',
-			'text' => 'CodeIgniter 3 has a 2MB download, including the user guide.'),
+				'text' => 'CodeIgniter 3 has a 2MB download, including the user guide.'),
 			array('icon' => 'book', 'label' => 'Clear documentation',
-			'text' => 'The CodeIgniter User Guide comes with the download. It contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.'),
+				'text' => 'The CodeIgniter User Guide comes with the download. It contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.'),
 			array('icon' => 'hdd', 'label' => 'Compatibility with standard hosting',
-			'text' => 'CodeIgniter 3 only needs PHP 5.2.4, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
+				'text' => 'CodeIgniter 3 only needs PHP 5.2.4, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
 			array('icon' => 'road', 'label' => 'No restrictive coding rules',
-			'text' => ' Use your own coding and naming conventions, with only a few caveats that deal with classname conflicts. CodeIgniter looks to empower you, not shackle you.'),
+				'text' => ' Use your own coding and naming conventions, with only a few caveats that deal with classname conflicts. CodeIgniter looks to empower you, not shackle you.'),
 			array('icon' => 'send', 'label' => 'Simple solutions over complexity',
-			'text' => 'CodeIgniter encourages MVC, but does not force it on you.'),
+				'text' => 'CodeIgniter encourages MVC, but does not force it on you.'),
 		);
 
 		$this->data['features2'] = array(
 			array('icon' => 'dashboard', 'label' => 'Exceptional performance',
-			'text' => 'CodeIgniter consistently outperforms most of its competitors.'),
+				'text' => 'CodeIgniter consistently outperforms most of its competitors.'),
 			array('icon' => 'ok', 'label' => 'No large-scale monolithic libraries',
-			'text' => 'CodeIgniter is not trying to be all things to all people. It is a lean MVC framework, with enough capabilities to improve your productivity, while providing for third-party addons/plugins for additional functionality.'),
+				'text' => 'CodeIgniter is not trying to be all things to all people. It is a lean MVC framework, with enough capabilities to improve your productivity, while providing for third-party addons/plugins for additional functionality.'),
 			array('icon' => 'list-alt', 'label' => 'Nearly zero configuration',
-			'text' => ' Much of the CodeIgniter configuration is done by convention, for instance putting models in a "models" folder. There are still a number of configuration options available, through scripts in the "config" folder.'),
+				'text' => ' Much of the CodeIgniter configuration is done by convention, for instance putting models in a "models" folder. There are still a number of configuration options available, through scripts in the "config" folder.'),
 			array('icon' => 'leaf', 'label' => 'No need for template language',
-			'text' => ' CodeIgniter comes with a simple, substitution based, templating tool. Addons/plugins are available for most of the full-blown templating engines, if that is what you are used to.'),
+				'text' => ' CodeIgniter comes with a simple, substitution based, templating tool. Addons/plugins are available for most of the full-blown templating engines, if that is what you are used to.'),
 			array('icon' => 'thumbs-up', 'label' => 'Spend more time away from the computer',
-			'text' => 'Don\'t we all want it? CodeIgniter is easy to learn and to get proficient with.'),
+				'text' => 'Don\'t we all want it? CodeIgniter is easy to learn and to get proficient with.'),
 		);
 
 		// Grab our forum information
@@ -108,10 +108,22 @@ class Welcome extends Application {
 		$this->data['posts'] = $this->load->view('forum/_posts', array('posts' => $this->mybb->getRecentPosts(5)), true);
 
 		// Fetch Github info
-		$this->data['github_widget'] = $this->load->view('theme/_github_widget', array('github_info' => $this->github_api->get_repo_info('bcit-ci', 'CodeIgniter')), true);
+		$info = $this->github_api->get_repo_info('bcit-ci', 'CodeIgniter');
+		if (!empty($info))
+		{
+			$parms = array(
+				'html_url' => $info['html_url'],
+				'stargazers_count' => number_format($info['stargazers_count']),
+				'forks_count' => number_format($info['forks_count'])
+			);
+			$fragment = $this->parser->parse('theme/_github_widget', $parms, true);
+		} else
+		{
+			$fragment = '';
+		}
+		$this->data['github_widget'] = $fragment;
 
 		$this->render();
 	}
 
 }
-
