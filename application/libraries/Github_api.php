@@ -39,19 +39,7 @@ class Github_api {
 		try
 		{
 			$info = $this->client->api('repo')->show($username, $repository);
-
-			if ( ! empty($info))
-			{
-				return array(
-					'html_url'         => $info['html_url'],
-					'stargazers_count' => number_format($info['stargazers_count']),
-					'forks_count'      => number_format($info['forks_count'])
-				);
-			}
-			else
-			{
-				return FALSE;
-			}
+			return (!empty($info)) ? $info : FALSE;
 		}
 		catch (Exception $e)
 		{
