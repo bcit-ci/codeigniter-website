@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CodeIgniter
  *
@@ -48,18 +49,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Community extends Application {
 
-    function __construct() {
-        parent::__construct();
-    }
+	function __construct()
+	{
+		parent::__construct();
+	}
 
-    //-------------------------------------------------------------
-    //  The normal pages
-    //-------------------------------------------------------------
+//-------------------------------------------------------------
+//  The normal pages
+//-------------------------------------------------------------
 
-    function index() {
-        $this->data['title'] = "CodeIgniter Community";
-        $this->data['pagebody'] = 'community';
-        $this->render();
-    }
+	function index()
+	{
+		$this->data['title'] = "CodeIgniter Community";
+		$this->data['pagebody'] = 'community';
+		$this->render();
+	}
 
 }

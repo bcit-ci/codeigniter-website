@@ -1,4 +1,5 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Github_api {
@@ -23,7 +24,7 @@ class Github_api {
 	public function __construct()
 	{
 		$this->client = new \Github\Client(
-			new \Github\HttpClient\CachedHttpClient(array('cache_dir' => '/tmp/github-api-cache'))
+				new \Github\HttpClient\CachedHttpClient(array('cache_dir' => '/tmp/github-api-cache'))
 		);
 	}
 
@@ -40,10 +41,10 @@ class Github_api {
 		{
 			$info = $this->client->api('repo')->show($username, $repository);
 			return (!empty($info)) ? $info : FALSE;
-		}
-		catch (Exception $e)
+		} catch (Exception $e)
 		{
 			return FALSE;
 		}
 	}
+
 }
