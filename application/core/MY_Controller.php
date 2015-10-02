@@ -59,6 +59,7 @@ class Application extends CI_Controller {
 		parent::__construct();
 		$this->data = array();
 		$this->data['title'] = 'CodeIgniter Web Framework';
+		$this->data['mybb_forum_url'] = $this->config->item('mybb_forum_url');
 		$this->errors = array();
 	}
 
