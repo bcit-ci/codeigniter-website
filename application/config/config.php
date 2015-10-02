@@ -4,22 +4,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // the menu basics (top navbar)
 $config['menu_choices'] = array(
-    'menudata' => array(
-        array('name' => '<span class="glyphicon glyphicon-home"></span>', 'link' => '/'),
-        array('name' => 'Download', 'link' => '/download'),
-        array('name' => 'Documentation', 'link' => '/docs'),
-        array('name' => 'Community', 'link' => '/community'),
-        array('name' => 'Contribute', 'link' => '/contribute')
-    )
+	'menudata' => array(
+		array('name' => '<span class="glyphicon glyphicon-home"></span>', 'link' => '/'),
+		array('name' => 'Download', 'link' => '/download'),
+		array('name' => 'Documentation', 'link' => '/docs'),
+		array('name' => 'Community', 'link' => '/community'),
+		array('name' => 'Contribute', 'link' => '/contribute')
+	)
 );
 
 // data for the footer navbar
 $config['footer_choices'] = array(
-    'menudata' => array(
-        array('name' => 'Policies', 'link' => '/help'),
-        array('name' => 'The Fine Print', 'link' => '/help/legal'),
-        array('name' => 'About', 'link' => '/help/about')
-    )
+	'menudata' => array(
+		array('name' => 'Policies', 'link' => '/help'),
+		array('name' => 'The Fine Print', 'link' => '/help/legal'),
+		array('name' => 'About', 'link' => '/help/about')
+	)
 );
 
 $config['stable_version'] = '3.0.2';
@@ -268,7 +268,7 @@ $config['log_file_extension'] = '';
   | The file system permissions to be applied on newly created log files.
   |
   | IMPORTANT: This MUST be an integer (no quotes) and you MUST use octal
-  |            integer notation (i.e. 0700, 0644, etc.)
+  |  integer notation (i.e. 0700, 0644, etc.)
  */
 $config['log_file_permissions'] = 0644;
 
@@ -320,53 +320,53 @@ $config['cache_path'] = '';
 $config['encryption_key'] = '';
 
 /*
-|--------------------------------------------------------------------------
-| Session Variables
-|--------------------------------------------------------------------------
-|
-| 'sess_driver'
-|
-|	The storage driver to use: files, database, redis, memcached
-|
-| 'sess_cookie_name'
-|
-|	The session cookie name, must contain only [0-9a-z_-] characters
-|
-| 'sess_expiration'
-|
-|	The number of SECONDS you want the session to last.
-|	Setting to 0 (zero) means expire when the browser is closed.
-|
-| 'sess_save_path'
-|
-|	The location to save sessions to, driver dependant.
-|
-|	For the 'files' driver, it's a path to a writable directory.
-|	WARNING: Only absolute paths are supported!
-|
-|	For the 'database' driver, it's a table name.
-|	Please read up the manual for the format with other session drivers.
-|
-|	IMPORTANT: You are REQUIRED to set a valid save path!
-|
-| 'sess_match_ip'
-|
-|	Whether to match the user's IP address when reading the session data.
-|
-| 'sess_time_to_update'
-|
-|	How many seconds between CI regenerating the session ID.
-|
-| 'sess_regenerate_destroy'
-|
-|	Whether to destroy session data associated with the old session ID
-|	when auto-regenerating the session ID. When set to FALSE, the data
-|	will be later deleted by the garbage collector.
-|
-| Other session cookie settings are shared with the rest of the application,
-| except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
-|
-*/
+  |--------------------------------------------------------------------------
+  | Session Variables
+  |--------------------------------------------------------------------------
+  |
+  | 'sess_driver'
+  |
+  |	The storage driver to use: files, database, redis, memcached
+  |
+  | 'sess_cookie_name'
+  |
+  |	The session cookie name, must contain only [0-9a-z_-] characters
+  |
+  | 'sess_expiration'
+  |
+  |	The number of SECONDS you want the session to last.
+  |	Setting to 0 (zero) means expire when the browser is closed.
+  |
+  | 'sess_save_path'
+  |
+  |	The location to save sessions to, driver dependant.
+  |
+  |	For the 'files' driver, it's a path to a writable directory.
+  |	WARNING: Only absolute paths are supported!
+  |
+  |	For the 'database' driver, it's a table name.
+  |	Please read up the manual for the format with other session drivers.
+  |
+  |	IMPORTANT: You are REQUIRED to set a valid save path!
+  |
+  | 'sess_match_ip'
+  |
+  |	Whether to match the user's IP address when reading the session data.
+  |
+  | 'sess_time_to_update'
+  |
+  |	How many seconds between CI regenerating the session ID.
+  |
+  | 'sess_regenerate_destroy'
+  |
+  |	Whether to destroy session data associated with the old session ID
+  |	when auto-regenerating the session ID. When set to FALSE, the data
+  |	will be later deleted by the garbage collector.
+  |
+  | Other session cookie settings are shared with the rest of the application,
+  | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
+  |
+ */
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;

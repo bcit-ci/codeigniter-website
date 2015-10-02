@@ -79,7 +79,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						The previous CodeIgniter forums are archived on EllisLab's server. 
 						EllisLab has provided the archived posts to us, and they are being transferred to the new forum, so all the content is together.
 					</p>
-					<a class="btn btn-primary btn-block" href="<?= config_item('mybb_forum_url') ?>"><span class="glyphicon glyphicon-share"></span> Visit the forum</a>
+					<a class="btn btn-primary btn-block" href="{mybb_forum_url}"><span class="glyphicon glyphicon-share"></span> Visit the forum</a>
 				</div>
 			</div>
 		</div>
