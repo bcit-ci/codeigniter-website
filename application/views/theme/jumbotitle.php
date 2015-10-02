@@ -16,35 +16,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 a simple and elegant toolkit to create full-featured web applications.</p>
 
             <div class="row text-left">
-              <?php if ( ! empty($github_repo) && is_array($github_repo) && count($github_repo)) : ?>
-                <span class="github-btn github-btn-large">
-                  <a class="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
-                    <i class="fa fa-github"></i>
-                    <span class="gh-text">Star</span>
-                  </a>
-                  <a class="gh-count" href="<?= $github_repo['html_url']; ?>/stargazers" target="_blank">
-                    <?= number_format($github_repo['stargazers_count']) ?>
-                  </a>
-                </span>
-                <span class="github-btn github-btn-large">
-                  <a class="gh-btn" href="<?= $github_repo['html_url']; ?>" target="_blank">
-                    <i class="fa fa-code-fork"></i>
-                    <span class="gh-text">Fork</span>
-                  </a>
-                  <a class="gh-count" href="<?= $github_repo['html_url']; ?>/network" target="_blank">
-                    <?= number_format($github_repo['forks_count']) ?>
-                  </a>
-                </span>
-              <?php endif; ?>
+                {github_widget}
 
-              <a class="twitter-follow-button"
-                 href="https://twitter.com/CodeIgniter"
-                 data-show-count="true"
-                 data-show-screen-name="false"
-                 data-size="large"
-                 data-lang="en">
-                  @CodeIgniter
-              </a>              
+                <a class="twitter-follow-button"
+                    href="https://twitter.com/CodeIgniter"
+                    data-show-count="true"
+                    data-show-screen-name="false"
+                    data-size="large"
+                    data-lang="en">
+                    @CodeIgniter
+                </a>              
             </div>
         </div>
     </div>
