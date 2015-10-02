@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CodeIgniter
  *
@@ -47,18 +48,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Info extends Application {
 
-    function __construct() {
-        parent::__construct();
-    }
+	function __construct()
+	{
+		parent::__construct();
+	}
 
-    //-------------------------------------------------------------
-    //  The normal pages
-    //-------------------------------------------------------------
+	//-------------------------------------------------------------
+	//  The normal pages
+	//-------------------------------------------------------------
 
-    function index() {
-        $this->data['title'] = "CodeIgniter Is Right for You if…";
-        $this->data['pagebody'] = 'info';
-        $this->render();
-    }
+	function index()
+	{
+		$this->data['title'] = "CodeIgniter Is Right for You if…";
+		$this->data['pagebody'] = 'info';
+		$this->render();
+	}
 
 }

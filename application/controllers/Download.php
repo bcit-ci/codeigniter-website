@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CodeIgniter
  *
@@ -46,20 +47,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Download extends Application {
 
-    function __construct()
-    {
-        parent::__construct();
-    }
+	function __construct()
+	{
+		parent::__construct();
+	}
 
-    //-------------------------------------------------------------
-    //  The normal pages
-    //-------------------------------------------------------------
+	//-------------------------------------------------------------
+	//  The normal pages
+	//-------------------------------------------------------------
 
-    function index()
-    {
-        $this->data['title'] = "Download CodeIgniter";
-        $this->data['pagebody'] = 'download';
-        $this->render();
-    }
+	function index()
+	{
+		$this->data['title'] = "Download CodeIgniter";
+		$this->data['pagebody'] = 'download';
+		$this->render();
+	}
 
 }

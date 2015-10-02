@@ -104,8 +104,8 @@ class Welcome extends Application {
 		);
 
 		// Grab our forum information
-		$this->data['news'] = $this->load->view('forum/_news', array('news' => $this->mybb->getRecentNews(5)), true);
-		$this->data['posts'] = $this->load->view('forum/_posts', array('posts' => $this->mybb->getRecentPosts(5)), true);
+		$this->data['news'] = $this->forum_news();
+		$this->data['posts'] = $this->forum_posts();
 
 		// Fetch Github info
 		$info = $this->github_api->get_repo_info('bcit-ci', 'CodeIgniter');
@@ -124,6 +124,40 @@ class Welcome extends Application {
 		$this->data['github_widget'] = $fragment;
 
 		$this->render();
+	}
+
+	// Process the latest news from the forum
+	function forum_news()
+	{
+		$items = $this->mybb->getRecentNews(5);
+		if (!empty($items) && is_array($items) && count($items))
+		{
+			// massage the date formats
+			foreach ($items as &$item)
+			{
+				$item['dateline'] = date('Y.m.d', $item['dateline']);
+				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
+			}
+			return $this->parser->parse('forum/_news', array('news' => $items), true);
+		} else
+			return $this->load->view('forum/_drats', true);
+	}
+
+	// Process the latest posts from the forum
+	function forum_posts()
+	{
+		$items = $this->mybb->getRecentPosts(5);
+		if (!empty($items) && is_array($items) && count($items))
+		{
+			// massage the date formats
+			foreach ($items as &$item)
+			{
+				$item['lastpost'] = date('Y.m.d', $item['lastpost']);
+				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
+			}
+			return $this->parser->parse('forum/_posts', array('posts' => $items), true);
+		} else
+			return $this->load->view('forum/_drats', true);
 	}
 
 }
