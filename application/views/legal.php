@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 ?>
 <div class="container">
-    <div class="row">
+	<div class="row">
 		<div class="lead text-info">Trademarks</div>
 		<p>CodeIgniter® is a registered trademark of the British Columbia Institute of 
 			Technology (BCIT), having being transferred from EllisLab, Inc.</p>
@@ -63,9 +63,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>BCIT and BRITISH COLUMBIA INSTITUTE OF TECHNOLOGY and the distinctive marks 
 			(e.g. the BCIT logo) are registered trade marks of the 
 			British Columbia Institute of Technology</p>
-    </div>
+	</div>
 
-    <div class="row">
+	<div class="row">
 		<div class="lead text-info">CodeIgniter Logo Guidelines and Usage</div>
 		<p>
 			You are welcome to use 
@@ -95,14 +95,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				are related to web publishing, programming frameworks, or related software.</li>
 			<li>Do not claim ownership rights in the CodeIgniter trademark.</li>
 		</ul>
-    </div>
-    <div class="row">
+	</div>
+	<div class="row">
 		<div class="lead text-info">Third Party Companies and Products</div>
 		<p>Mention of third party companies and products on this web site is for 
 			informational purposes only and constitutes neither an endorsement nor a recommendation.</p>
-    </div>
+	</div>
 
-    <div class="row">
+	<div class="row">
 		<div class="lead text-info">Links to Other Web Sites</div>
 		<p>BCIT makes no representations whatsoever about any other websites which 
 			you may access from here. When you access a non-BCIT website, 
@@ -112,5 +112,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			any responsibility for the content or use of such website.</p>
 		<br/>
 		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/copyright/" target="_blank"><i class="icon-share"></i> copyright and legals page</a></p>
-    </div>
+	</div>
 </div>
