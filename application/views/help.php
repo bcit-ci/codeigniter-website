@@ -45,16 +45,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 ?>
 <div class="container">
-    <div class="row">
+	<div class="row">
 		<div class="lead text-info">Terms of Service</div>
 		<p>All messages posted at this website express the views of the authors, and do not 
 			necessarily reflect the views of the owners and administrators of this site.</p>
 		<p>By registering on this site you agree not to post any messages that are obscene, 
 			vulgar, slanderous, hateful, threatening, or that violate any laws. We will permanently ban all users who do so.</p>
 		<p>We reserve the right to remove, edit, or move any messages for any reason.</p>
-    </div>
+	</div>
 
-    <div class="row">
+	<div class="row">
 		<div class="lead text-info">Privacy Policy</div>
 		<p>We are committed to respecting and protecting your online privacy.</p>
 		<p>We only collect your personal information when you voluntarily sign-up for a 
@@ -73,5 +73,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			If you have concerns about cookies, you can change your web browser settings 
 			not to accept this information, or to display warning messages.</p>
 		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/privacy/" target="_blank"><i class="icon-share"></i> main privacy page</a></p>
-    </div>
+	</div>
 </div>

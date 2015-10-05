@@ -45,7 +45,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 ?>
 <div class="container">
-    <div class="row">
+	<div class="row">
 
 		<div class="col-md-12 col-sm-12 text-center title">
 			<span class="glyphicon glyphicon-heart big-glyph"></span>

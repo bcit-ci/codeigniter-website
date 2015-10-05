@@ -47,8 +47,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- Big Links -->
 <div class="row row-md-flex row-md-flex-wrap">
 
-    {biglinks}
-    <div class="col-sm-6 col-md-3 col-lg-3">
+	{biglinks}
+	<div class="col-sm-6 col-md-3 col-lg-3">
 		<div class="well text-center">
 			<div class="stat-icon">
 				<span class="glyphicon glyphicon-{icon}"></span>
@@ -58,8 +58,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 			<div>{text}</div>
 		</div>
-    </div>
-    {/biglinks}
+	</div>
+	{/biglinks}
 
 </div>
 
@@ -68,13 +68,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- Recent Community Info -->
 <div class="row">
 
-    <div class="col-md-6">
+	<div class="col-md-6">
 		{news}
-    </div>
+	</div>
 
-    <div class="col-md-6">
+	<div class="col-md-6">
 		{posts}
-    </div>
+	</div>
 
 </div>
 
@@ -83,11 +83,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="row">
 
-    <h2>Why CodeIgniter?</h2>
+	<h2>Why CodeIgniter?</h2>
 
-    <br/>
+	<br/>
 
-    <div class="col-sm-12 col-md-6 features">
+	<div class="col-sm-12 col-md-6 features">
 		{features1}
 		<div class="feature">
 			<div class="feature-icon">
@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		{/features1}
 	</div>
 
-    <div class="col-sm-12 col-md-6 features">
+	<div class="col-sm-12 col-md-6 features">
 		{features2}
 		<div class="feature">
 			<div class="feature-icon">
@@ -109,6 +109,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<p>{text}</p>
 		</div>
 		{/features2}
-    </div>
+	</div>
 
 </div>
