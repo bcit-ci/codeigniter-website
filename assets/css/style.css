@@ -177,7 +177,9 @@ a .glyphicon {
     background-color: #aaa;
     border-radius: 0;
 }
-
+.footer .nav {
+    margin-right: 120px;
+}
 
 
 /* Sub header
