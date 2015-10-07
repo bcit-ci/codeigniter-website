@@ -62,11 +62,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					There have been a number of refinements since version 2.x, notably with
 					the database, session handling and encryption. Development of this version is ongoing.<br><br>
 					
-					<a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-warning btn-block"><span class="glyphicons glyphicons-link"></span>View Code On Github</a>
-					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 3.0.2</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-warning btn-block"><span class="glyphicons glyphicons-link"></span>View CodeIgniter 3 on Github</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
 					<!--<a href="/data/CodeIgniter-3.0.1-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.0.1) to read offline</a>
 					-->
-					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.1.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the system message translations</a>
+					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
 				</div>
 			</div>
 		</div>
@@ -79,9 +79,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					The 2.x branch was originally released January 2011, 
 					the next major update (2.1.0) came in the fall of 2011, 
 					version (2.2.0) came out in July, 2014, and
-					the current version (2.2.5) came out in September, 2015.<br><br>
-					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span> View Code On Github</a>
-					<a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.5.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download Codeigniter 2.2.5</a>
+					the current version (2.2.5) came out in October, 2015.<br><br>
+					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span> View CodeIgniter 2 on Github</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.5.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 2</a>
 				</div>
 			</div>
 		</div>
