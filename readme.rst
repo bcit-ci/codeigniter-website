@@ -38,6 +38,8 @@ Some of the programming design decisions reflected:
     document root.
 -   An ".htaccess" file is incorporated, to configure Apache to remove
     index.php from any URLs.
+-   Some of the formatting has gotten out of hand, so I am trying to
+    conform to the CodeIgniter style guide as much as practical.
 
 *******
 Sitemap
@@ -58,7 +60,8 @@ Project Folders
 /application    the obvious
 /assets         CSS, javascript & media
 /data           zipped files for downloading, avatars
-/user_guide     the user guide for CI2
+/user_guide     symbolic link to the current user guide
+/userguide2     the user guide for CI2
 /userguide3     the user guide for CI3
 
 

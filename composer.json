@@ -1,0 +1,13 @@
+{
+    "description": "The CodeIgniter Website",
+    "homepage": "http://codeigniter.com",
+    "name": "bcit-ci/codeigniter-website",
+    "license": "MIT",
+    "config": {
+      "vendor-dir": "application/vendor"
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "knplabs/github-api": "~1.5"
+    }
+}
