@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="col-md-12 col-sm-12 text-center title">
 			<span class="glyphicon glyphicon-book big-glyph"></span>
 			<p>The primary documentation for CodeIgniter is its User Guide, included in the package downloads.<br>
-			The User Guide can also be read online here</p>
+				The User Guide can also be read online here</p>
 		</div>
 
 		<div class="col-md-6 col-sm-6">
@@ -62,10 +62,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<a href="/user_guide/license.html">MIT License</a>.</p>
 					<a href="/user_guide" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> Read the User Guide online</a>
 					<a href="/data/CodeIgniter-3.0.2-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide</a>
-<!-- 					<a href="/data/CodeIgniter3-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.x) to read offline</a>
-					<a href="/data/CodeIgniter3-userguide-epub.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide in epub format</a>
- -->
- 					
+					<a href="/data/CodeIgniter User Guide 3.0.2.epub" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the epub format U.G.</a>
+
 				</div>
 			</div>
 		</div>
@@ -91,17 +89,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">What's inside the User Guide?</h4>
 							<p class="list-group-item-text">The User Guide contains an introduction, tutorial, a number
-					of "how to" guides, and then reference documentation 
-					for the components that make up the framework.</p>
+								of "how to" guides, and then reference documentation 
+								for the components that make up the framework.</p>
 						</div>
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">Where else can I find the User Guide?</h4>
 							<p class="list-group-item-text">The user guide download is simply the zipped folder from the released version.
-					It is included in the <a href="/download">framework download</a>.</p>
-						</div>
-						<div class="list-group-item">
-							<h4 class="list-group-item-heading">Epub Version</h4>
-							<p class="list-group-item-text">The epub user guide has been temporarily removed. We are working on a script to produce an "official" epub version of the released user guide :)</p>
+								It is included in the <a href="/download">framework download</a>.</p>
 						</div>
 					</div>
 
