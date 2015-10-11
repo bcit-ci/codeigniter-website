@@ -38,6 +38,8 @@ Some of the programming design decisions reflected:
     document root.
 -   An ".htaccess" file is incorporated, to configure Apache to remove
     index.php from any URLs.
+-   Some of the formatting has gotten out of hand, so I am trying to
+    conform to the CodeIgniter style guide as much as practical.
 
 *******
 Sitemap
