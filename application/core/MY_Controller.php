@@ -61,6 +61,14 @@ class Application extends CI_Controller {
 		$this->data['title'] = 'CodeIgniter Web Framework';
 		$this->data['mybb_forum_url'] = $this->config->item('mybb_forum_url');
 		$this->errors = array();
+		
+		// Prevent some security threats, per Kevin
+		// Turn on IE8-IE9 XSS prevention tools
+		$this->output->set_header('X-XSS-Protection "1; mode=block"');
+		// Don't allow any pages to be framed - Defends against CSRF
+		$this->output->set_header('X-Frame-Options DENY');
+		// prevent mime based attacks
+		$this->output->set_header('X-Content-Type-Options "nosniff"');		
 	}
 
 	/**
