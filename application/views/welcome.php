@@ -69,10 +69,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="row">
 
 	<div class="col-md-6">
+		<h3>Recent News</h3>
 		{news}
 	</div>
 
 	<div class="col-md-6">
+		<h3>Active Forum Threads</h3>
 		{posts}
 	</div>
 
