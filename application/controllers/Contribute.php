@@ -49,6 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Contribute extends Application {
 
+	private $astar = '<span class="glyphicon glyphicon-star" aria-hidden="true"></span>';
+
 	function __construct()
 	{
 		parent::__construct();
@@ -62,7 +64,69 @@ class Contribute extends Application {
 	{
 		$this->data['title'] = "Contribute to CodeIgniter";
 		$this->data['pagebody'] = 'contribute';
+
+		$this->load->library('Github_api');
+		$this->load->driver('cache');
+
+		// get the framework heros
+		if (!$info = $this->cache->get('fw_heros'))
+		{
+			$info = $this->github_api->get_contributors('bcit-ci', 'CodeIgniter');
+			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
+			$this->cache->save('fw_heros', $info, $ttl);
+		}
+		$heros = array();
+		if (!empty($info))
+		{
+			foreach ($info as $val)
+			{
+				$heros[] = array(
+					'avatar' => $val['avatar_url'],
+					'name' => $val['login'],
+					'url' => $val['url'],
+					'stars' => $this->stars($val['contributions'])
+				);
+			}
+			$this->data['fw_heros'] = $this->parser->parse('theme/_heros', array('heros' => $heros), true);
+		} else
+			$this->data['fw_heros'] = '';
+
+		// get the website heros
+		if (!$info = $this->cache->get('web_heros'))
+		{
+			$info = $this->github_api->get_contributors('bcit-ci', 'codeigniter-website');
+			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
+			$this->cache->save('web_heros', $info, $ttl);
+		}
+		$heros = array();
+		if (!empty($info))
+		{
+			foreach ($info as $val)
+			{
+				$heros[] = array(
+					'avatar' => $val['avatar_url'],
+					'name' => $val['login'],
+					'url' => $val['url'],
+					'stars' => $this->stars($val['contributions'])
+				);
+			}
+			$this->data['web_heros'] = $this->parser->parse('theme/_heros', array('heros' => $heros), true);
+		} else
+			$this->data['web_heros'] = '';
+
 		$this->render();
+	}
+
+	// determine how many stars a contributor earns
+	function stars($contributions)
+	{
+		$result = $this->astar;
+		while ($contributions > 9)
+		{
+			$result .= $this->astar;
+			$contributions /= 10;
+		}
+		return $result;
 	}
 
 }
