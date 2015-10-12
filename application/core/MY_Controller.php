@@ -64,11 +64,11 @@ class Application extends CI_Controller {
 		
 		// Prevent some security threats, per Kevin
 		// Turn on IE8-IE9 XSS prevention tools
-		$this->output->set_header('X-XSS-Protection "1; mode=block"');
+		$this->output->set_header('X-XSS-Protection: "1; mode=block"');
 		// Don't allow any pages to be framed - Defends against CSRF
-		$this->output->set_header('X-Frame-Options DENY');
+		$this->output->set_header('X-Frame-Options: DENY');
 		// prevent mime based attacks
-		$this->output->set_header('X-Content-Type-Options "nosniff"');		
+		$this->output->set_header('X-Content-Type-Options: "nosniff"');		
 	}
 
 	/**
