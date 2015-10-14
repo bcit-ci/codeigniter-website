@@ -114,6 +114,29 @@ class Contribute extends Application {
 		} else
 			$this->data['web_heros'] = '';
 
+		// get the translation heros
+		if (!$info = $this->cache->get('trans_heros'))
+		{
+			$info = $this->github_api->get_contributors('bcit-ci', 'codeigniter3-translations');
+			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
+			$this->cache->save('trans_heros', $info, $ttl);
+		}
+		$heros = array();
+		if (!empty($info))
+		{
+			foreach ($info as $val)
+			{
+				$heros[] = array(
+					'avatar' => $val['avatar_url'],
+					'name' => $val['login'],
+					'url' => $val['url'],
+					'stars' => $this->stars($val['contributions'])
+				);
+			}
+			$this->data['trans_heros'] = $this->parser->parse('theme/_heros', array('heros' => $heros), true);
+		} else
+			$this->data['trans_heros'] = '';
+
 		$this->render();
 	}
 

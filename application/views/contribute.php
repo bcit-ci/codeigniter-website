@@ -173,6 +173,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<h3>Acknowledging Our Top Website Contributors</h3>
 			<p>{web_heros}</p>
 		</div>		
+		<div class="col-md-12 col-sm-12">
+			<h3>Acknowledging Our Top Translation Contributors</h3>
+			<p>{trans_heros}</p>
+		</div>		
 
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
