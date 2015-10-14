@@ -65,9 +65,6 @@ class Contribute extends Application {
 		$this->data['title'] = "Contribute to CodeIgniter";
 		$this->data['pagebody'] = 'contribute';
 
-		$this->load->library('Github_api');
-		$this->load->driver('cache');
-
 		// get the framework heros
 		if (!$info = $this->cache->get('fw_heros'))
 		{
@@ -75,21 +72,7 @@ class Contribute extends Application {
 			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
 			$this->cache->save('fw_heros', $info, $ttl);
 		}
-		$heros = array();
-		if (!empty($info))
-		{
-			foreach ($info as $val)
-			{
-				$heros[] = array(
-					'avatar' => $val['avatar_url'],
-					'name' => $val['login'],
-					'url' => $val['url'],
-					'stars' => $this->stars($val['contributions'])
-				);
-			}
-			$this->data['fw_heros'] = $this->parser->parse('theme/_heros', array('heros' => $heros), true);
-		} else
-			$this->data['fw_heros'] = '';
+		$this->data['fw_heros'] = $this->hitparade($info);
 
 		// get the website heros
 		if (!$info = $this->cache->get('web_heros'))
@@ -98,21 +81,7 @@ class Contribute extends Application {
 			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
 			$this->cache->save('web_heros', $info, $ttl);
 		}
-		$heros = array();
-		if (!empty($info))
-		{
-			foreach ($info as $val)
-			{
-				$heros[] = array(
-					'avatar' => $val['avatar_url'],
-					'name' => $val['login'],
-					'url' => $val['url'],
-					'stars' => $this->stars($val['contributions'])
-				);
-			}
-			$this->data['web_heros'] = $this->parser->parse('theme/_heros', array('heros' => $heros), true);
-		} else
-			$this->data['web_heros'] = '';
+		$this->data['web_heros'] = $this->hitparade($info);
 
 		// get the translation heros
 		if (!$info = $this->cache->get('trans_heros'))
@@ -121,6 +90,14 @@ class Contribute extends Application {
 			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
 			$this->cache->save('trans_heros', $info, $ttl);
 		}
+		$this->data['trans_heros'] = $this->hitparade($info);
+
+		$this->render();
+	}
+
+	// build the hit parade for this group of contributors
+	function hitparade($info)
+	{
 		$heros = array();
 		if (!empty($info))
 		{
@@ -129,15 +106,13 @@ class Contribute extends Application {
 				$heros[] = array(
 					'avatar' => $val['avatar_url'],
 					'name' => $val['login'],
-					'url' => $val['url'],
+					'url' => $val['html_url'],
 					'stars' => $this->stars($val['contributions'])
 				);
 			}
-			$this->data['trans_heros'] = $this->parser->parse('theme/_heros', array('heros' => $heros), true);
+			return $this->parser->parse('theme/_heros', array('heros' => $heros), true);
 		} else
-			$this->data['trans_heros'] = '';
-
-		$this->render();
+			return '';
 	}
 
 	// determine how many stars a contributor earns

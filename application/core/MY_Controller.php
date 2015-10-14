@@ -62,6 +62,9 @@ class Application extends CI_Controller {
 		$this->data['mybb_forum_url'] = $this->config->item('mybb_forum_url');
 		$this->errors = array();
 		
+		$this->load->library('Github_api');
+		$this->load->driver('cache');
+
 		// Prevent some security threats, per Kevin
 		// Turn on IE8-IE9 XSS prevention tools
 		$this->output->set_header('X-XSS-Protection: 1; mode=block');
