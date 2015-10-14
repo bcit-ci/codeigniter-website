@@ -164,6 +164,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			</div>
 		</div>
 
+		<!-- Acknowledge contributors -->
+		<div class="col-md-12 col-sm-12">
+			<h3>Acknowledging Our Top Framework Contributors</h3>
+			<p>{fw_heros}</p>
+		</div>
+		<div class="col-md-12 col-sm-12">
+			<h3>Acknowledging Our Top Website Contributors</h3>
+			<p>{web_heros}</p>
+		</div>		
+		<div class="col-md-12 col-sm-12">
+			<h3>Acknowledging Our Top Translation Contributors</h3>
+			<p>{trans_heros}</p>
+		</div>		
+
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
@@ -174,10 +188,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						teaching materials, working on this or your open source project, or even just sharing experiences.</p>
 					<hr/>
 					<p>If you have questions, or would like more information, email me using the link in the footer!</p>
-
 				</div>
 			</div>
 		</div>
 
-    </div>
+	</div>
 </div>
