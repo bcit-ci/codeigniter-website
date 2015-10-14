@@ -107,8 +107,15 @@ class Welcome extends Application {
 		$this->data['news'] = $this->forum_news();
 		$this->data['posts'] = $this->forum_posts();
 
+		// get the repo stats
+		if (!$info = $this->cache->get('repo_info'))
+		{
+			$info = $this->github_api->get_repo_info('bcit-ci', 'CodeIgniter');
+			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
+			$this->cache->save('repo_info', $info, $ttl);
+		}
+
 		// Fetch Github info
-		$info = $this->github_api->get_repo_info('bcit-ci', 'CodeIgniter');
 		if (!empty($info))
 		{
 			$parms = array(
@@ -129,7 +136,14 @@ class Welcome extends Application {
 	// Process the latest news from the forum
 	function forum_news()
 	{
-		$items = $this->mybb->getRecentNews(5);
+		// get the forum news
+		if (!$items = $this->cache->get('bb_news'))
+		{
+			$items = $this->mybb->getRecentNews(5);
+			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
+			$this->cache->save('bb_news', $items, $ttl);
+		}
+
 		if (!empty($items) && is_array($items) && count($items))
 		{
 			// massage the date formats
@@ -146,7 +160,13 @@ class Welcome extends Application {
 	// Process the latest posts from the forum
 	function forum_posts()
 	{
-		$items = $this->mybb->getRecentPosts(5);
+		// get the forum posts
+		if (!$items = $this->cache->get('b$itemsb_posts'))
+		{
+			$items = $this->mybb->getRecentPosts(5);
+			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
+			$this->cache->save('bb_posts', $items, $ttl);
+		}
 		if (!empty($items) && is_array($items) && count($items))
 		{
 			// massage the date formats
