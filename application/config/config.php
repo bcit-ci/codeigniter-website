@@ -9,7 +9,8 @@ $config['menu_choices'] = array(
 		array('name' => 'Download', 'link' => '/download'),
 		array('name' => 'Documentation', 'link' => '/docs'),
 		array('name' => 'Community', 'link' => '/community'),
-		array('name' => 'Contribute', 'link' => '/contribute')
+		array('name' => 'Contribute', 'link' => '/contribute'),
+		array('name' => 'Addons', 'link' => '/addons')
 	)
 );
 

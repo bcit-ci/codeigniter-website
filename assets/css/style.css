@@ -327,3 +327,31 @@ h2, h3 {
     white-space: normal;
 }
 
+
+/* Addons Page
+--------------------------------------------------*/
+
+.search-row {
+    padding-bottom: 40px;
+}
+/* Tables
+--------------------------------------------------*/
+
+.table-expanded > thead > tr > th,
+.table-expanded > tbody > tr > th,
+.table-expanded > tfoot > tr > th,
+.table-expanded > thead > tr > td,
+.table-expanded > tbody > tr > td,
+.table-expanded > tfoot > tr > td {
+  padding: 8px;
+}
+
+.table-vertical-align > thead > tr > th,
+.table-vertical-align > tbody > tr > th,
+.table-vertical-align > tfoot > tr > th,
+.table-vertical-align > thead > tr > td,
+.table-vertical-align > tbody > tr > td,
+.table-vertical-align > tfoot > tr > td {
+  vertical-align: middle!important;
+}
+
