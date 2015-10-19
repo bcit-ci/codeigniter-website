@@ -47,4 +47,45 @@ class Github_api {
 		}
 	}
 
+	/**
+	 * Retrieves extended information about the tags (releases) in a repository 
+	 * given its username and repository name.
+	 * 
+	 * This returns an empty array, the same as attempts from browser :(
+	 *
+	 * @param string    the username
+	 * @param string	the repository name
+	 * @return array    releases information
+	 */
+	public function get_repo_releases($username, $repository)
+	{
+		try
+		{
+			$info = $this->client->api('repo')->releases()->all($username, $repository);
+			return (!empty($info)) ? $info : FALSE;
+		} catch (Exception $e)
+		{
+			return FALSE;
+		}
+	}
+
+	/**
+	 * Retrieves contributors information for a repository given its username and repository name
+	 *
+	 * @param string    the username
+	 * @param string	the repository name
+	 * @return array    contributor information
+	 */
+	public function get_contributors($username, $repository)
+	{
+		try
+		{
+			$info = $this->client->api('repo')->contributors($username, $repository);
+			return (!empty($info)) ? $info : FALSE;
+		} catch (Exception $e)
+		{
+			return FALSE;
+		}
+	}
+
 }

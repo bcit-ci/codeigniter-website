@@ -101,7 +101,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						If you are new to IRC, read this 
 						<a href="http://workaround.org/getting-help-on-irc" target="_blank">introduction</a> 
 						first.</p>
-					<a class="btn btn-default btn-block" href="irc"><span class="glyphicon glyphicon-share"></span> Visit I.R.C.</a>
+					<a class="btn btn-default btn-block" href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22" target="_blank">
+						<span class="glyphicon glyphicon-share"></span> Visit I.R.C.</a>
 				</div>
 			</div>
 		</div>
