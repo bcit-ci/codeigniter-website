@@ -66,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
 					<!--<a href="/data/CodeIgniter-3.0.1-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.0.1) to read offline</a>
 					-->
-					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.2.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
+					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
 				</div>
 			</div>
 		</div>
