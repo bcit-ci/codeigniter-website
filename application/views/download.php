@@ -62,11 +62,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					There have been a number of refinements since version 2.x, notably with
 					the database, session handling and encryption. Development of this version is ongoing.<br><br>
 					
-					<a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-warning btn-block"><span class="glyphicons glyphicons-link"></span>View CodeIgniter 3 on Github</a>
-					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span>View CodeIgniter 3 on Github</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.3.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
 					<!--<a href="/data/CodeIgniter-3.0.1-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide (3.0.1) to read offline</a>
 					-->
-					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.3.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
+					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.3.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
 				</div>
 			</div>
 		</div>
@@ -83,8 +83,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					CodeIgniter 2 has reached its end-of-life for support and updates, 
 					as of October 31, 2015. No further updates are planned.<br/>
 					We encourage you to upgrade to CodeIgniter 3.x!<br/><br/>
-					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span> View CodeIgniter 2 on Github</a>
-					<a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.6.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 2</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-warning btn-block"><span class="glyphicons glyphicons-link"></span> View CodeIgniter 2 on Github</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.6.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 2</a>
 				</div>
 			</div>
 		</div>
