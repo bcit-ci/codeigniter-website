@@ -1,6 +1,6 @@
 {
     "description": "The CodeIgniter Website",
-    "homepage": "http://codeigniter.com",
+    "homepage": "https://codeigniter.com",
     "name": "bcit-ci/codeigniter-website",
     "license": "MIT",
     "config": {
