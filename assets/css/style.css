@@ -331,6 +331,28 @@ h2, h3 {
 /* Addons Page
 --------------------------------------------------*/
 
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+
+.sidenav .list-group-item.active {
+    text-decoration: none;
+    color: #555555;
+    background-color: #FCF8E3;
+}
+
+.sidenav .list-group-item a {
+    display:inline-block;
+    height: 100%;
+    width: 85%;
+}
+.sidenav .list-group-item a:hover {
+    text-decoration:none;
+}
+
+
 .search-row {
     padding-bottom: 40px;
 }

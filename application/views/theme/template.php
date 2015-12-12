@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<!-- center of the page -->
 		<div id="content">
-			<div class="container">
+			<div class="{container_class}">
 				{content}
 			</div>
 		</div>

@@ -80,7 +80,11 @@ class Application extends CI_Controller {
 	function render()
 	{
 		if (!isset($this->data['pagetitle']))
+		{
 			$this->data['pagetitle'] = $this->data['title'];
+		}
+
+		$this->data['container_class'] = isset($this->data['fluid_layout']) ? 'container-fluid' : 'container';
 
 		// Massage the menubar
 		$choices = $this->config->item('menu_choices');

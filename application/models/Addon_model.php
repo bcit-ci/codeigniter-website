@@ -1,4 +1,5 @@
 <?php
+
 /**
  * CodeIgniter
  *
@@ -6,7 +7,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014-2015, British Columbia Institute of Technology
+ * Copyright (c) 2014 - 2015, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -27,9 +28,9 @@
  * THE SOFTWARE.
  *
  * @package	CodeIgniter
- * @author	CodeIgniter Dev Team
+ * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014-2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014 - 2015, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
  * @since	Version 1.0.0
@@ -38,16 +39,28 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * views/addons.php
+ * Class Mybb
  *
+ * Implements helper functions for grabbing information from
+ * the MyBB install.
+ *
+ * Can be configured by modifying application/config/mybb.php
  */
-?>
-<div class="row">
-	<div class="col-md-2">
-		{categories}
-	</div>
-	<div class="col-md-10">
-		<h1>{category}</h1>
-		{addons}
-	</div>
-</div>
+class Addon_model extends MY_Model {
+
+	public $table = 'addons';
+	public $primary_key = 'addon_id';
+
+	public function __construct()
+	{
+		$this->has_one['category'] = array(
+			'foreign_model' => 'Category_model',
+			'foreign_table' => 'categories',
+			'foreign_key' => 'category_id',
+			'local_key' => 'addon_id',
+		);
+
+		parent::__construct();
+	}
+
+}
