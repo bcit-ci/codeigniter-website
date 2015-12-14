@@ -101,7 +101,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						If you are new to IRC, read this 
 						<a href="http://workaround.org/getting-help-on-irc" target="_blank">introduction</a> 
 						first.</p>
-					<a class="btn btn-default btn-block" href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22" target="_blank">
+					<a class="btn btn-info btn-block" href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22" target="_blank">
 						<span class="glyphicon glyphicon-share"></span> Visit I.R.C.</a>
 				</div>
 			</div>
@@ -121,7 +121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p>Github issues are also used for tracking planned and approved enhancements,
 						often tied in to specific releases.</p>
 					<br/>
-					<a class="btn btn-default btn-block" href="https://github.com/bcit-ci/CodeIgniter/"><span class="glyphicon glyphicon-share"></span> Visit Github</a>
+					<a class="btn btn-info btn-block" href="https://github.com/bcit-ci/CodeIgniter/"><span class="glyphicon glyphicon-share"></span> Visit Github</a>
 				</div>
 			</div>
 		</div>
