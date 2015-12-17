@@ -151,6 +151,8 @@ class Welcome extends Application {
 			{
 				$item['dateline'] = date('Y.m.d', $item['dateline']);
 				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
+				// escape the subject
+				$item['subject'] = htmlentities($item['subject']);
 			}
 			return $this->parser->parse('forum/_news', array('news' => $items), true);
 		} else
@@ -161,7 +163,7 @@ class Welcome extends Application {
 	function forum_posts()
 	{
 		// get the forum posts
-		if (!$items = $this->cache->get('b$itemsb_posts'))
+		if (!$items = $this->cache->get('bb_posts'))
 		{
 			$items = $this->mybb->getRecentPosts(5);
 			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
@@ -174,6 +176,8 @@ class Welcome extends Application {
 			{
 				$item['lastpost'] = date('Y.m.d', $item['lastpost']);
 				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
+				// escape the subject
+				$item['subject'] = htmlentities($item['subject']);
 			}
 			return $this->parser->parse('forum/_posts', array('posts' => $items), true);
 		} else
