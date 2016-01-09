@@ -7,7 +7,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014-2015, British Columbia Institute of Technology
+ * Copyright (c) 2014-2016, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@
  * @package	CodeIgniter
  * @author	CodeIgniter Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014-2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014-2016, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
  * @since	Version 1.0.0
@@ -151,6 +151,9 @@ class Welcome extends Application {
 			{
 				$item['dateline'] = date('Y.m.d', $item['dateline']);
 				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
+				// escape the subject
+				$item['subject'] = htmlentities($item['subject']);
+				$item['subject'] = strip_tags($item['subject']); // fix #79
 			}
 			return $this->parser->parse('forum/_news', array('news' => $items), true);
 		} else
@@ -161,7 +164,7 @@ class Welcome extends Application {
 	function forum_posts()
 	{
 		// get the forum posts
-		if (!$items = $this->cache->get('b$itemsb_posts'))
+		if (!$items = $this->cache->get('bb_posts'))
 		{
 			$items = $this->mybb->getRecentPosts(5);
 			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
@@ -174,6 +177,9 @@ class Welcome extends Application {
 			{
 				$item['lastpost'] = date('Y.m.d', $item['lastpost']);
 				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
+				// escape the subject
+				$item['subject'] = htmlentities($item['subject']);
+				$item['subject'] = strip_tags($item['subject']); // fix #79
 			}
 			return $this->parser->parse('forum/_posts', array('posts' => $items), true);
 		} else

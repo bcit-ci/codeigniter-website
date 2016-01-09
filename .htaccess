@@ -15,3 +15,6 @@ Header set X-Content-Type-Options "nosniff"
 Header set X-Frame-Options DENY
 # Hide PHP version
 Header unset X-Powered-By
+# Eliminate ETags
+Header unset Etag
+FileETag none

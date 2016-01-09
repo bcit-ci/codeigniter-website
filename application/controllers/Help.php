@@ -7,7 +7,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014-2015, British Columbia Institute of Technology
+ * Copyright (c) 2014-2016, British Columbia Institute of Technology
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@
  * @package	CodeIgniter
  * @author	CodeIgniter Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014-2015, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Copyright (c) 2014-2016, British Columbia Institute of Technology (http://bcit.ca/)
  * @license	http://opensource.org/licenses/MIT	MIT License
  * @link	http://codeigniter.com
  * @since	Version 1.0.0
@@ -94,17 +94,19 @@ class Help extends Application {
 					array('badge' => 'github', 'handle' => 'jim-parry')
 				),
 			),
-//  array('name' => 'Johannes Gamperl', 'from' => 'Germany', 
-//		'avatar' => 'johannes.png', 'roles' => 'Council, forum moderator', 
-//		'description' => 'Author, Developer', 
-// 'badges' => array(),
-// ),
 			array('name' => 'Lonnie Ezell', 'from' => 'USA',
 				'avatar' => 'lonnie.jpg', 'roles' => 'CI4',
 				'description' => 'Web Mechanic, Author, Musician, Creator of Bonfire.',
 				'badges' => array(
 					array('badge' => 'twitter', 'handle' => 'lonnieezell'),
 					array('badge' => 'github', 'handle' => 'lonnieezell')
+				),
+			),
+			array('name' => 'Mat Whitney', 'from' => 'USA',
+				'avatar' => 'mat.jpeg', 'roles' => 'CI4',
+				'description' => 'Open source contributor, Author',
+				'badges' => array(
+					array('badge' => 'github', 'handle' => 'mwhitneysdsu')
 				),
 			),
 		);

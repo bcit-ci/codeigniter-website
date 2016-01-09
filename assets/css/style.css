@@ -161,8 +161,8 @@ a .glyphicon {
     background-color: #3e3e3e;
 }
 .bcit50 {
-    background: url('/assets/images/bcit-50.png') right top no-repeat;
-    background-size: 100px 44px;
+    background: url('/assets/images/bcit_cmyk.png') right top no-repeat;
+    background-size: 48px 43px;
 }
 
 .footer .nav-pills > li > a {
