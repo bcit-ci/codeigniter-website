@@ -153,6 +153,7 @@ class Welcome extends Application {
 				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
 				// escape the subject
 				$item['subject'] = htmlentities($item['subject']);
+				$item['subject'] = strip_tags($item['subject']); // fix #79
 			}
 			return $this->parser->parse('forum/_news', array('news' => $items), true);
 		} else
@@ -178,6 +179,7 @@ class Welcome extends Application {
 				$item['mybb_forum_url'] = $this->config->item('mybb_forum_url');
 				// escape the subject
 				$item['subject'] = htmlentities($item['subject']);
+				$item['subject'] = strip_tags($item['subject']); // fix #79
 			}
 			return $this->parser->parse('forum/_posts', array('posts' => $items), true);
 		} else
