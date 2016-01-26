@@ -50,6 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title>{pagetitle}</title>
+		<link rel="search" type="application/opensearchdescription+xml" href="/assests/opensearch.xml" title="CodeIgniter 3 Search">
 		<link rel="icon" type="image/png" href="/assets/images/ci-icon.png" />
 		<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" media="screen"/>
 		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" media="screen"/>

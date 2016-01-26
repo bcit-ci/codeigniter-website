@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>CodeIgniter 3</ShortName>
+	<Description>Search in CodeIgniter 3 documentation</Description>
+	<Image type="image/png">assets/images/ci-icon.png</Image>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Url type="text/html" template="https://codeigniter.com/user_guide/search.html?q={searchTerms}"/>
+</OpenSearchDescription>
