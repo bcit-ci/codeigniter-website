@@ -95,6 +95,15 @@ class Contribute extends Application {
 		$this->render();
 	}
 
+	// present our responsible disclosure page
+	function responsible()
+	{
+		$this->data['title'] = "Responsible Disclosure";
+		$this->data['pagebody'] = 'responsible';
+
+		$this->render();
+	}
+
 	// build the hit parade for this group of contributors
 	function hitparade($info)
 	{
