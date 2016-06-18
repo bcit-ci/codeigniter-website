@@ -74,6 +74,15 @@ class Contribute extends Application {
 		}
 		$this->data['fw_heros'] = $this->hitparade($info);
 
+		// get the CodeIgniter4 heros
+		if (!$info = $this->cache->get('ci4_heros'))
+		{
+			$info = $this->github_api->get_contributors('bcit-ci', 'CodeIgniter4');
+			$ttl = 60 * 60 * 4; // time to live s/b 4 hours
+			$this->cache->save('ci4_heros', $info, $ttl);
+		}
+		$this->data['ci4_heros'] = $this->hitparade($info);
+
 		// get the website heros
 		if (!$info = $this->cache->get('web_heros'))
 		{

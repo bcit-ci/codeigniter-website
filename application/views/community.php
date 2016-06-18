@@ -66,11 +66,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<h3>Forum</h3>
 
 					<p>
-						Our forum has been setup using MyBB, with four main categories:
+						Our forum has been setup using MyBB, with five main categories:
 					<ul>
-						<li>General (News &amp; Discussion, Lounge, and Events)</li>
-						<li>Using CodeIgniter (Choosing CodeIgniter, Installation &amp; Setup, Model-View-Controller, Libraries &amp; Helpers, and Best Practices)</li>
-						<li>Development (CodeIgniter 3.x, CodeIgniter 2.x, Issues)</li>
+						<li>General (News &amp; Discussion, Lounge, Events, and Regional User Groups)</li>
+						<li>Using CodeIgniter (Choosing CodeIgniter, Installation &amp; Setup, 
+							Model-View-Controller, Libraries &amp; Helpers, Best Practices, and General Help)</li>
+						<li>CodeIgniter 4 (development, feature requests, support, discussion)</li>
+						<li>Development (CodeIgniter 3.x, CodeIgniter 2.x, Issues, and NetBeand Plugin)</li>
 						<li>External Resources (Addons, Jobs, Learn More, and Spotlight)</li>
 					</ul>
 					</p>
@@ -93,7 +95,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						CodeIgniter has its own Internet Relay Chat channel, #codeigniter.<br>
 						You can connect to it using your favorite IRC client, or use 
 						<a href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22">webchat</a>. 
-						Our website's IRC page has an embedded webchat iframe.
 					</p>
 					<p>The IRC channel will often have over 80 people in it, but many of those
 						are in different timezones, and they stay logged in to catch up
