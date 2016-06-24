@@ -51,7 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<span class="glyphicon glyphicon-heart big-glyph"></span>
 			There are many ways to contribute to the CodeIgniter project, whether you are a developer or not.
 		</div>
+	</div>
 
+	<div class=row">
 		<div class="col-md-12 col-sm-12">
 			<p>CodeIgniter is a community driven project and accepts contributions of code and documentation from the community.
 				These contributions are made in the form of Issues or Pull Requests on the
@@ -71,15 +73,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				This will require you to use the version control system called Git.
 			</p><br>
 		</div>
+	</div>
 
+	<div class=row">
+		<div class="col-md-12 col-sm-12">
+			<div class="bs-component">
+				<div class="well download">
+					<h3>CodeIgniter 4</h3>
+					<p>CodeIgniter 4 has its own
+						<a href="https://github.com/bcit-ci/CodeIgniter4" target="_blank">Github repository</a>.
+						It deviates enough from CodeIgniter 3 that we want to keep them separate.
+						The CodeIgniter 4 roadmap is explained on 
+						<a href="http://forum.codeigniter.com/forum-27.html" target="_blank">our forum</a>, 
+						and work to be done
+						is detailed in the 
+						<a href="https://github.com/bcit-ci/CodeIgniter4/issues" target="_blank">repository issues</a>.
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class=row">
 		<div class="col-md-12 col-sm-12">
 			<div class="alert alert-info" role="alert">
 				Security issues should be reported with an email to our
 				<a href="mailto:security@codeigniter.com">security team</a>, rather
-				than being brought up on the forum or raised as a Github issue, thanks!
+				than being brought up on the forum or raised as a Github issue, thanks!<br/>
+				Read more about <a href="contribute/responsible">responsible disclosure</a>.
 			</div>
 		</div>
+	</div>
 
+	<div class=row">
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
@@ -119,7 +146,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<div class=row">
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
@@ -145,6 +174,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class=row">
 
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
@@ -163,13 +195,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<div class=row">
 		<!-- Acknowledge contributors -->
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
 					<h3>Acknowledging Our Top Framework Contributors</h3>
 					<div class="row">{fw_heros}</div>
+					<hr/>
+					<h3>New: Acknowledging Our Top CodeIgniter4 Contributors</h3>
+					<div class="row">{ci4_heros}</div>
 					<hr/>
 					<h3>Acknowledging Our Top Website Contributors</h3>
 					<div class="row">{web_heros}</div>
@@ -179,7 +216,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<div class=row">
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">

@@ -50,21 +50,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		<div class="col-md-12 col-sm-12 text-center title">
 			<span class="glyphicon glyphicon-download big-glyph"></span>
-			CodeIgniter comes in two main flavors: CodeIgniter 3.x and CodeIgniter 2.x
+			CodeIgniter comes in three flavors: CodeIgniter 3 (current), 
+			CodeIgniter 4 (future) and CodeIgniter 2 (legacy)
 		</div>
 
 		<div class="col-md-6 col-sm-6">
 			<div class="bs-component">
 				<div class="well download">
-					<h3 class="text-center">CodeIgniter 3.0</h3>
+					<h3 class="text-center">CodeIgniter 3.x</h3>
 
-					CodeIgniter 3.0.4 is the current version of the framework.<br><br>
+					CodeIgniter 3.0.6 is the current version of the framework.<br><br>
 					There have been a number of refinements since version 2.x, notably with
 					the database, session handling and encryption. Development of this version is ongoing.<br><br>
 					
-					<a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-primary btn-block"><span class="glyphicons glyphicons-link"></span>View CodeIgniter 3 on Github</a>
-					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.4.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
-					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.4.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-primary btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 3 on Github</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.0.6.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
+					<a href="https://github.com/bcit-ci/codeigniter3-translations/archive/3.0.6.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
 				</div>
 			</div>
 		</div>
@@ -81,28 +82,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					CodeIgniter 2 has reached its end-of-life for support and updates, 
 					as of October 31, 2015. No further updates are planned.<br/>
 					We encourage you to upgrade to CodeIgniter 3.x!<br/><br/>
-					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-warning btn-block"><span class="glyphicons glyphicons-link"></span> View CodeIgniter 2 on Github</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-warning btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 2 on Github</a>
 					<a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.6.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 2</a>
 				</div>
 			</div>
 		</div>
 
-		<!--
-		<div class="col-md-6 col-sm-6">
+		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
-					<h3 class="text-center">CodeIgniter 4?</h3>
-	 
+					<h3 class="text-center">CodeIgniter 4.x</h3>
 					CodeIgniter 4 is the upcoming version of the framework.<br><br>
-					We have been discussing it on our forum, and recently released
-					a proposed roadmap. Development is just getting underway,
-					and links will be posted here once there is something you
-					can kick the tires of!<br><br>
-	 				<a href="http://forum.codeigniter.com/forum-27.html" class="btn btn-success btn-block"><span class="glyphicons glyphicons-link"></span> Join the discussion on our forum!</a>
+					Development is underway, with Phase 1 completed in June 2016.
+					It is *not* ready for production use - the current version
+					is considered "pre-alpha1".<br><br>
+	 				<a href="https://github.com/bcit-ci/CodeIgniter4" class="btn btn-success btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 4 on Github</a>
+					<a href="http://forum.codeigniter.com/forum-27.html" class="btn btn-success btn-block"><i class="fa fa-comments"></i> Join the discussion on our forum!</a>
 	  			</div>
 	   		</div>
 		</div>
-		-->
 
     </div>
 </div>
