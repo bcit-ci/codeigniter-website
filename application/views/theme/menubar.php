@@ -6,6 +6,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 ?>
 {menudata}
-<li class="{active}"><a href="{link}">{name}</a></li>
+<li><a href="{link}">{name}</a></li>
 {/menudata}
 
