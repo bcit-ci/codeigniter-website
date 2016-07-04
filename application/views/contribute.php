@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 
-	<div class=row">
+	<div class="row">
 		<div class="col-md-12 col-sm-12">
 			<p>CodeIgniter is a community driven project and accepts contributions of code and documentation from the community.
 				These contributions are made in the form of Issues or Pull Requests on the
@@ -75,7 +75,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 
-	<div class=row">
+	<div class="row">
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
@@ -95,7 +95,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	</div>
 
-	<div class=row">
+	<div class="row">
 		<div class="col-md-12 col-sm-12">
 			<div class="alert alert-info" role="alert">
 				Security issues should be reported with an email to our
@@ -106,7 +106,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 
-	<div class=row">
+	<div class="row">
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
@@ -148,7 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 
-	<div class=row">
+	<div class="row">
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
@@ -176,7 +176,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 
-	<div class=row">
+	<div class="row">
 
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
@@ -197,7 +197,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 
-	<div class=row">
+	<div class="row">
 		<!-- Acknowledge contributors -->
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
@@ -218,7 +218,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 	</div>
 
-	<div class=row">
+	<div class="row">
 		<div class="col-md-12 col-sm-12">
 			<div class="bs-component">
 				<div class="well download">
