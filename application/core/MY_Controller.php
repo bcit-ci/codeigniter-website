@@ -90,7 +90,12 @@ class Application extends CI_Controller {
 		}
 		$this->data['menubar'] = $this->parser->parse('theme/menubar', $choices, true);
 
-		$this->data['footerbar'] = $this->parser->parse('theme/menubar', $this->config->item('footer_choices'), true);
+		$choices = $this->config->item('footer_choices');
+		foreach ($choices['menudata'] as &$menuitem)
+		{
+			$menuitem['active'] = (ltrim($menuitem['link'], '/ ') == uri_string()) ? 'active' : '';
+		}
+		$this->data['footerbar'] = $this->parser->parse('theme/menubar', $choices, true);
 		$this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
 
 		// title for all but the homepage
