@@ -67,7 +67,7 @@ class Welcome extends Application {
 		$this->data['pagebody'] = 'welcome';
 
 		$this->data['biglinks'] = array(
-			array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.0.6.zip',
+			array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.1.1.zip',
 				'label' => 'Download', 'text' => 'The latest is <b>Version ' . $this->config->item('stable_version') . '</b>'),
 			array('icon' => 'book', 'link' => 'https://www.codeigniter.com/user_guide',
 				'label' => 'Read the Manual', 'text' => 'Clear documentation'),
@@ -83,7 +83,7 @@ class Welcome extends Application {
 			array('icon' => 'book', 'label' => 'Clear documentation',
 				'text' => 'The CodeIgniter User Guide comes with the download. It contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.'),
 			array('icon' => 'hdd', 'label' => 'Compatibility with standard hosting',
-				'text' => 'CodeIgniter 3 only needs PHP 5.2.4, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
+				'text' => 'CodeIgniter 3 only needs PHP 5.3.7, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
 			array('icon' => 'road', 'label' => 'No restrictive coding rules',
 				'text' => ' Use your own coding and naming conventions, with only a few caveats that deal with classname conflicts. CodeIgniter looks to empower you, not shackle you.'),
 			array('icon' => 'send', 'label' => 'Simple solutions over complexity',
