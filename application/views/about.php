@@ -52,8 +52,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		to steer the framework to the next level, CodeIgniter 4.</div>
 	<br/>
 	{council}
-	<div class="row council">
-		<img class="pull-left" src="/data/avatars/{avatar}" width="84" height="64"/> <strong>{name}</strong> - {roles}<br/>
+	<div class="council">
+		<img class="pull-left" src="/data/avatars/{avatar}" width="64" height="64" class="councilAvatar"/> <strong>{name}</strong> - {roles}<br/>
 		{description}
 		{badges}<a href="http://{badge}.com/{handle}"><img src="/assets/icons/{badge}.jpg" /></a>{/badges}
 	</div>
