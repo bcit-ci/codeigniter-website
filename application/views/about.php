@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<br/>
 	{council}
 	<div class="council">
-		<img class="pull-left" src="/data/avatars/{avatar}" width="64" height="64" class="councilAvatar"/> <strong>{name}</strong> - {roles}<br/>
+		<img class="pull-left" src="/data/avatars/{avatar}" width="64" height="64"/> <strong>{name}</strong> - {roles}<br/>
 		{description}
 		{badges}<a href="http://{badge}.com/{handle}"><img src="/assets/icons/{badge}.jpg" /></a>{/badges}
 	</div>
