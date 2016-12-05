@@ -64,26 +64,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="container">
 	<div class="lead text-info">Our Website</div>
-	<div>We have had a lot of enthusiasm about our website, both good and bad.</div>
-	<div>We are grateful for the council contributions from Johannes Gamperl (Germany),
-		Andreas Pfotenhauer 
-		(Germany), and David Wosnitza (Germany), helping to get CodeIgniter
-		back on track :).</div>
-	<div>We are grateful for the design and code contributions from 
-		Lonnie Ezell (USA), Michał Śniatała (Poland)
-		and Raymond King (USA).</div>
-	<div>Thank you, as well, to all of the community members who have made constructive suggestions to improve
-		the design and usability of the site!</div>
-	<br/>
+    <p>
+        We have had a lot of enthusiasm about our website, both good and bad.<br/>
+        We are grateful for the council contributions from Johannes Gamperl (Germany), Andreas Pfotenhauer (Germany), and David Wosnitza (Germany), helping to get CodeIgniter back on track.<br/>
+        We are grateful for the design and code contributions from Lonnie Ezell (USA), Michał Śniatała (Poland) and Raymond King (USA).<br/>
+        Thank you, as well, to all of the community members who have made constructive suggestions to improve the design and usability of the site!
+    </p>
 </div>
 
 <div class="container">
 	<div class="lead text-info">Security Team</div>
-	<div>We are fortunate to have a dedicated security team,
-		investigating and fixing vulnerabilities.</div>
-	<div>Kevin Morssink (Netherlands) is a community member contributing to the team :)</div>
-	<div>We are grateful for past contributions from Debasis Mohanty (New Zealand)</div>
-	<div>Thank you, as well, to all of the community members who have 
-		reported vulnerabilities!</div>
-	<br/>
+	<p>
+        We are fortunate to have a dedicated security team, investigating and fixing vulnerabilities.<br/>
+        Kevin Morssink (The Netherlands) is a community member contributing to the team.<br/>
+        We are grateful for past contributions from Debasis Mohanty (New Zealand)<br/>
+        Thank you, as well, to all of the community members who have reported vulnerabilities!
+    </p>
 </div>

@@ -93,17 +93,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<p>
 						CodeIgniter has its own Internet Relay Chat channel, #codeigniter.<br>
-						You can connect to it using your favorite IRC client, or use 
-						<a href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22">webchat</a>. 
+						You can connect to it using your favorite IRC client, or use
+						<a href="https://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22">webchat</a>.
 					</p>
 					<p>The IRC channel will often have over 80 people in it, but many of those
 						are in different timezones, and they stay logged in to catch up
 						on conversations when they are next around.
-						If you are new to IRC, read this 
-						<a href="http://workaround.org/getting-help-on-irc" target="_blank">introduction</a> 
+						If you are new to IRC, read this
+						<a href="https://workaround.org/getting-help-on-irc" target="_blank">introduction</a>
 						first.</p>
-					<a class="btn btn-info btn-block" href="http://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22" target="_blank">
-						<span class="glyphicon glyphicon-share"></span> Visit I.R.C.</a>
+					<a class="btn btn-info btn-block" href="https://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22" target="_blank">
+						<span class="glyphicon glyphicon-share"></span> Visit IRC</a>
 				</div>
 			</div>
 		</div>

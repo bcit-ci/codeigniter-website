@@ -43,8 +43,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Template page for the CodeIgniter website.
  *
  */
-?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
     <head>
 		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -101,7 +101,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="footer-copyright">
 				<div class="container">
 					<div class="row">
-						<p class="text-center">CodeIgniter was created by <a href="http://www.ellislab.com/">EllisLab</a>, 
+						<p class="text-center">CodeIgniter was created by <a href="https://www.ellislab.com/">EllisLab</a>,
 							and is now a project of the <a href="http://www.bcit.ca/cas/computing/">British Columbia Institute of Technology</a>
 							<a href="mailto:jim_parry&commat;bcit.ca"><span class="glyphicon glyphicon-envelope"></span></a></p>
 					</div>
@@ -125,4 +125,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<script src="/assets/js/bootstrap.min.js"></script>
     </body>
 </html>
-

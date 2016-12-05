@@ -224,7 +224,8 @@ h2, h3 {
     font-family: 'amblebold_italic';
 }
 
-.council img {padding-right:20px}
+.council > img {margin-right:20px}
+.council > a > img {margin-right:5px}
 /* Jumbotron
 -------------------------------------------------- */
 .jumbotron {
