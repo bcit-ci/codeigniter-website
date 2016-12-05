@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<br/><br/>
 		</div>
 		<p>BCIT and BRITISH COLUMBIA INSTITUTE OF TECHNOLOGY and the distinctive marks 
-			(e.g. the BCIT logo) are registered trade marks of the 
+			(e.g. the BCIT logo) are registered trademarks of the 
 			British Columbia Institute of Technology</p>
 	</div>
 
@@ -108,7 +108,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			you may access from here. When you access a non-BCIT website, 
 			please understand that it is independent from the BCIT website and
 			from this website, and that BCIT has no control over the content on that website. 
-			A link to a non-BCIT we site does not mean that BCIT endorses or accepts 
+			A link to a non-BCIT website does not mean that BCIT endorses or accepts 
 			any responsibility for the content or use of such website.</p>
 		<br/>
 		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/copyright/" target="_blank"><i class="icon-share"></i> copyright and legals page</a></p>
