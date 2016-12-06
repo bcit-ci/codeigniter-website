@@ -19,6 +19,7 @@ the only way to do things.
 
 Some of the programming design decisions reflected:
 
+-   The <code>public</code> folder is the intended document root for the webapp.
 -   The architecture adheres more to the "model-view-adapter" convention,
     where the view is unaware of the source of data and the model is unaware of
     how any data might be presented. The controllers are go-betweens.
@@ -33,10 +34,7 @@ Some of the programming design decisions reflected:
     the live forum database.
 -   View fragments are used to style single "records" on their own,
     improving cohesion.
--   The CodeIgniter framework folder has been moved outside of the webapp,
-    in this case to a "system3" folder at the same hierarchy level as the 
-    document root.
--   An ".htaccess" file is incorporated, to configure Apache to remove
+-   An <code>.htaccess</code> file is incorporated, to configure Apache to remove
     index.php from any URLs.
 -   Some of the formatting has gotten out of hand, so I am trying to
     conform to the CodeIgniter style guide as much as practical.
@@ -58,8 +56,9 @@ Project Folders
 ***************
 
 /application    the obvious
-/assets         CSS, javascript & media
-/data           zipped files for downloading, avatars
+/public         document root
+    /assets         CSS, javascript & media
+    /data           zipped files for downloading, avatars
 /user_guide     symbolic link to the current user guide
 /userguide2     the user guide for CI2
 /userguide3     the user guide for CI3
@@ -84,10 +83,10 @@ agreement <http://codeigniter.com/userguide3/license.html>`_
 Resources
 *********
 
--  `User Guide <http://codeigniter.com/userguide3/>`_
+-  `User Guide <https://codeigniter.com/userguide3/>`_
 -  `Community Forums <https://forum.codeigniter.com/>`_
 -  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki/>`_
--  `Community IRC <http://codeigniter.com/irc>`_
+-  `Community IRC <https://codeigniter.com/irc>`_
 
 ***************
 Acknowledgement

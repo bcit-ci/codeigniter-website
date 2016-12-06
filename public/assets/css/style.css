@@ -1,0 +1,329 @@
+@font-face {
+    font-family: 'amblebold';
+    src: url('../fonts/Amble-Bold-webfont.eot');
+    src: url('../fonts/Amble-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Amble-Bold-webfont.woff') format('woff'),
+        url('../fonts/Amble-Bold-webfont.ttf') format('truetype'),
+        url('../fonts/Amble-Bold-webfont.svg#amblebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'amblebold_italic';
+    src: url('../fonts/Amble-BoldItalic-webfont.eot');
+    src: url('../fonts/Amble-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Amble-BoldItalic-webfont.woff') format('woff'),
+        url('../fonts/Amble-BoldItalic-webfont.ttf') format('truetype'),
+        url('../fonts/Amble-BoldItalic-webfont.svg#amblebold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#mainnav {
+    box-shadow: 0 2px 5px rgba(0,0,0, 0.25);
+    font-size: 14px;
+    line-height: 1.42;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px 15px 15px 45px;
+    font-size: 26px;
+    font-family: 'amblebold_italic';
+    font-weight: normal;
+    line-height: 22px;
+    height: 50px;
+    background: url('/assets/images/ci-logo-white.png') left top no-repeat;
+}
+
+.glyphicon {
+    color: #8ba8af;
+}
+a .glyphicon {
+    color: inherit;
+}
+
+.big-glyph {
+    display: block;
+    text-align: center;
+    font-size: 3.0em;
+    margin-bottom: 0.25em;
+}
+
+/* Header
+-------------------------------------------------- */
+.header {
+    background: #8ba8af;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+/* Features
+-------------------------------------------------- */
+.features {
+    background: #FFFFFF;
+    color: #808080;
+    text-align: left;
+}
+.features .feature {
+    min-height: 80px;
+    margin-bottom: 55px;
+}
+.features .feature-icon {
+    font-size: 55px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+.features .feature h5 {
+    font-family: 'amblebold_italic';
+    font-size: 19px;
+    line-height: 20px;
+    color: #404040;
+}
+.features .feature p {
+    font-size: 14px;
+}
+
+/* Stats
+-------------------------------------------------- */
+.stats {
+    color: #808080;
+}
+.stat-icon {
+    font-size: 40px;
+    height: 50px;
+    line-height: 50px;
+}
+.stat-number {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-copyright p {
+    margin: 20px 0px;
+    color: #c0c0c0;
+}
+
+.footer-copyright a {
+    color: #ffffff;
+}
+
+.footer .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer .footer-menu {
+    background-color: #dedede;
+}
+.footer .footer-copyright {
+    background-color: #3e3e3e;
+}
+.bcit50 {
+    background: url('/assets/images/bcit_cmyk.png') right top no-repeat;
+    background-size: 48px 43px;
+}
+
+.footer .nav-pills > li > a {
+    color: #5B5B5D;
+    border-radius: 0px;
+}
+.footer .nav-pills > li > a:hover {
+    color: #ffffff;
+    background-color: #3e3e3e;
+}
+.footer .nav-pills > li.active > a {
+    background-color: #aaa;
+    border-radius: 0;
+}
+
+
+
+/* Sub header
+-------------------------------------------------- */
+.title {
+    font-size: 22px;
+    color: #5B5B5D;
+    margin-bottom: 40px;
+}
+
+.title-end {
+    margin-bottom: 20px;
+}
+
+/* Content
+-------------------------------------------------- */
+.download h3 {
+    font-family: 'amblebold_italic';
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.well {
+    background-color: #F5F5F5;
+}
+.well hr { 
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid #E3E3E3;
+    margin: 1em 0; padding: 0; 
+}
+
+.well h3 {
+    margin-top: 0;
+}
+
+.list-group-item:hover,
+.list-group-item:focus {
+    text-decoration: none;
+    color: #555555;
+    background-color: #FCF8E3;
+}
+
+h2, h3 {
+    font-family: 'amblebold_italic';
+}
+
+.council img {padding-right:20px}
+/* Jumbotron
+-------------------------------------------------- */
+.jumbotron {
+    background-color: #8ba8af;
+}
+.jumbotron p {
+    /*font-weight: lighter;*/
+    letter-spacing: 0.33px;
+    text-shadow: 0 1px 0 rgba(255,255,255, 0.3);
+    color: #333;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+    font-family: 'amblebold_italic';
+    color: #fff;
+    font-size: 42px;
+    text-shadow: 0 -1px 0 rgba(0,0,0, 0.8);
+}
+.jumbotronwidth
+{
+    max-width:100%;
+    float: right;
+    margin-right: 40px;
+}
+
+@media (max-width: 991px) {
+   .jumbotron {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    } 
+}
+
+/* Twitter widget
+-------------------------------------------------- */
+.tweet {
+    padding-left: 10px;
+}
+.navbar-text iframe {
+    margin: -5px 0px -5px 0px; padding: 0px;
+}
+.twitter-follow-button {
+    margin: 1px 0 0 15px;
+}
+
+/* News List
+-------------------------------------------------- */
+.newsitem {
+    padding: 1em;
+    border-bottom: 1px solid #efefef;
+    position: relative;
+}
+.newsitem .date {
+    position: absolute;
+    top: 1em;
+    left: 0;
+    color: #8ba8af;
+}
+.newsitem p {
+    margin: 0 0 0 6em;
+    padding: 0;
+}
+
+/* Columns of same height
+   http://www.bootply.com/126437
+--------------------------------------------------*/
+@media (min-width: 992px) {
+    .row-md-flex, .row-md-flex > div[class*='col-'] {  
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex:1 1 auto;
+    }
+    .row-md-flex-wrap {
+        -webkit-flex-flow: row wrap;
+        align-content: flex-start;
+        flex:0;
+    }
+    .row-md-flex > div[class*='col-'], .container-md-flex > div[class*='col-'] {
+         margin:-.2px; /* hack adjust for wrapping */
+    }
+    .container-md-flex > div[class*='col-'] div,.row-md-flex > div[class*='col-'] div {
+        width:100%;
+    }
+    .flex-md-col {
+        display: flex;
+        display: -webkit-flex;
+        flex: 1 100%;
+        flex-flow: column nowrap;
+    }
+    .flex-md-grow {
+        display: flex;
+        -webkit-flex: 2;
+        flex: 2;
+    }
+}
+
+.btn.btn-block {
+    white-space: normal;
+}
+
