@@ -1,44 +1,8 @@
 <?php
-/**
- * CodeIgniter
- *
- * An open source application development framework for PHP
- *
- * This content is released under the MIT License (MIT)
- *
- * Copyright (c) 2014-2016, British Columbia Institute of Technology
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package	CodeIgniter
- * @author	CodeIgniter Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (http://ellislab.com/)
- * @copyright	Copyright (c) 2014-2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
- * @since	Version 1.0.0
- * @filesource
- */
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
- * views/userguide.php
+ * views/docs.php
  *
  * Provide a static version of the CI user guide
  *
@@ -61,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p>CodeIgniter 3.x is licensed under the 
 						<a href="/user_guide/license.html">MIT License</a>.</p>
 					<a href="/user_guide" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> Read the User Guide online</a>
-					<a href="/data/CodeIgniter-3.1.1-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide</a>
-					<a href="/data/CodeIgniter User Guide 3.1.1.epub" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the epub format U.G.</a>
+					<a href="/data/CodeIgniter-3.1.2-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide</a>
+					<a href="/data/CodeIgniter User Guide 3.1.2.epub" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the epub format U.G.</a>
 
 				</div>
 			</div>
