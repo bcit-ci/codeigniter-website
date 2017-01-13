@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<img class="pull-left" src="/assets/images/tl-ci.gif"/>
 			<p><br/>The CodeIgniter logo is a registered trademark owned by BCIT,
 				having been transferred from EllisLab, Inc.
-				We supply <a href="/assets/data/ci-logo.zip">vector-formatted versions of the CodeIgniter logo</a> 
+				We supply <a href="/data/ci-logo.zip">vector-formatted versions of the CodeIgniter logo</a> 
 				for use in your projects, subject to the guidelines below.</p>
 			<br/><br/>
 		</div>
