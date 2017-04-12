@@ -71,6 +71,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			A link to a non-BCIT website does not mean that BCIT endorses or accepts 
 			any responsibility for the content or use of such website.</p>
 		<br/>
-		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/copyright/" target="_blank"><i class="icon-share"></i> copyright and legals page</a></p>
+		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/copyright/" target="_blank" rel="noopener noreferrer"><i class="icon-share"></i> copyright and legals page</a></p>
 	</div>
 </div>
