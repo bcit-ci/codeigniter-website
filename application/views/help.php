@@ -36,6 +36,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			to web browsers, to assist you when you return to specific areas on the site. 
 			If you have concerns about cookies, you can change your web browser settings 
 			not to accept this information, or to display warning messages.</p>
-		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/privacy/" target="_blank"><i class="icon-share"></i> main privacy page</a></p>
+		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/privacy/" target="_blank" rel="noopener noreferrer"><i class="icon-share"></i> main privacy page</a></p>
 	</div>
 </div>
