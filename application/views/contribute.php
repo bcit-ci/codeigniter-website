@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="col-md-12 col-sm-12">
 			<p>CodeIgniter is a community driven project and accepts contributions of code and documentation from the community.
 				These contributions are made in the form of Issues or Pull Requests on the
-				<a href="https://github.com/bcit-ci/CodeIgniter" target="_blank">CodeIgniter repository</a> on GitHub.</p>
+				<a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" rel="noopener noreferrer">CodeIgniter repository</a> on GitHub.</p>
 			<p>Issues are a quick way to point out a bug. If you find a bug or documentation error in CodeIgniter then please check a few things first:
 			<ul>
 				<li>There is not already an open Issue</li>
@@ -45,13 +45,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="well download">
 					<h3>CodeIgniter 4</h3>
 					<p>CodeIgniter 4 has its own
-						<a href="https://github.com/bcit-ci/CodeIgniter4" target="_blank">Github repository</a>.
+						<a href="https://github.com/bcit-ci/CodeIgniter4" target="_blank" rel="noopener noreferrer">Github repository</a>.
 						It deviates enough from CodeIgniter 3 that we want to keep them separate.
 						The CodeIgniter 4 roadmap is explained on 
-						<a href="http://forum.codeigniter.com/forum-27.html" target="_blank">our forum</a>, 
+						<a href="http://forum.codeigniter.com/forum-27.html" target="_blank" rel="noopener noreferrer">our forum</a>, 
 						and work to be done
 						is detailed in the 
-						<a href="https://github.com/bcit-ci/CodeIgniter4/issues" target="_blank">repository issues</a>.
+						<a href="https://github.com/bcit-ci/CodeIgniter4/issues" target="_blank" rel="noopener noreferrer">repository issues</a>.
 					</p>
 				</div>
 			</div>
@@ -86,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">Writers</h4>
 							<p class="list-group-item-text">Every project needs good documentation! The CodeIgniter user guide is part of the
-								<a href="https://github.com/bcit-ci/CodeIgniter" target="_blank">Github project</a> (mentioned above),
+								<a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" rel="noopener noreferrer">Github project</a> (mentioned above),
 								and there is always room for more tutorials.</p>
 						</div>
 						<div class="list-group-item">
@@ -121,11 +121,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">Coders</h4>
 							<p class="list-group-item-text">If you would like to get involved in helping to build the next version of CodeIgniter, join us on
-								<a href="https://github.com/bcit-ci/CodeIgniter" target="_blank">Github</a>!
+								<a href="https://github.com/bcit-ci/CodeIgniter" target="_blank" rel="noopener noreferrer">Github</a>!
 								A detailed <a href="/userguide3/contributing/index.html">contribution guide</a> is in the 
 								User Guide, but the main points are to make sure your code conforms
 								to our <a href="/userguide3/general/styleguide.html">style guide</a>, that it is properly documented, and that you use the
-								<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">Git-Flow</a> branching model.</p>
+								<a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener noreferrer">Git-Flow</a> branching model.</p>
 						</div>
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">Reviewers</h4>
