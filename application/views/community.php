@@ -76,7 +76,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<li>External Resources (Addons, Jobs, Learn More, and Spotlight)</li>
 					</ul>
 					</p>
-					<p><strong>The forum is where you can ask for help or discuss issues you are having with framework.</strong></p>
+					<p><strong>The forum is where you can ask for help or discuss issues you are having with the framework.</strong></p>
 					<p>
 						The previous CodeIgniter forums are archived on EllisLab's server. 
 						EllisLab has provided the archived posts to us, and they are being transferred to the new forum, so all the content is together.
@@ -116,11 +116,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p>
 						The development action takes place on Github. See the contribute page for more details.
 					</p>
-					<p><strong>The Github repository is where you can file bug reports (github issues),
-							or where you can submit pull requests for enhancements to or fixes for framework.
-							Github is *not* for support or help ... use the forum instead.</strong></p>
+					<p><strong>The Github repository is where you can file bug reports (Github issues),
+							or where you can submit pull requests for enhancements to or fixes for the framework.
+							Github is *not* for support or help, use the forum instead.</strong></p>
 					<p>Github issues are also used for tracking planned and approved enhancements,
-						often tied in to specific releases.</p>
+						often tied into specific releases.</p>
 					<br/>
 					<a class="btn btn-info btn-block" href="https://github.com/bcit-ci/CodeIgniter/"><span class="glyphicon glyphicon-share"></span> Visit Github</a>
 				</div>

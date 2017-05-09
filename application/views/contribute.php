@@ -228,7 +228,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p>I welcome collaboration, on any level, with other academics. This could be in the form of sharing
 						teaching materials, working on this or your open source project, or even just sharing experiences.</p>
 					<hr/>
-					<p>If you have questions, or would like more information, email me using the link in the footer!</p>
+					<p>If you have questions or would like more information, email me using the link in the footer!</p>
 				</div>
 			</div>
 		</div>

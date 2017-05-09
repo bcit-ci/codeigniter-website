@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<p>
         We are fortunate to have a dedicated security team, investigating and fixing vulnerabilities.<br>
         Kevin Morssink (The Netherlands) is a community member contributing to the team.<br>
-        We are grateful for past contributions from Debasis Mohanty (New Zealand)<br>
+        We are grateful for past contributions from Debasis Mohanty (New Zealand).<br>
         Thank you, as well, to all of the community members who have reported vulnerabilities!
     </p>
 </div>

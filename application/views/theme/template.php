@@ -101,7 +101,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="footer-copyright">
 				<div class="container">
 					<div class="row">
-						<p class="text-center">CodeIgniter was created by <a href="http://www.ellislab.com/">EllisLab</a>, 
+						<p class="text-center">CodeIgniter was created by <a href="http://www.ellislab.com/">EllisLab</a> 
 							and is now a project of the <a href="http://www.bcit.ca/cas/computing/">British Columbia Institute of Technology</a>
 							<a href="mailto:jim_parry&commat;bcit.ca"><span class="glyphicon glyphicon-envelope"></span></a></p>
 					</div>
