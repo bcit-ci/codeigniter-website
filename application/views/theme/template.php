@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<title>{pagetitle}</title>
 		<link rel="icon" type="image/png" href="/assets/images/ci-icon.png" />
 		<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" media="screen"/>
-		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="/assets/github-buttons/style.css"/>
     </head>
