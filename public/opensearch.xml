@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://www.opensearch.org/Specifications/OpenSearch/1.1">
+    <ShortName>CodeIgniter</ShortName>
+    <LongName>CodeIgniter User Guide Search</LongName>
+    <Description>Search in the latest CodeIgniter User Guide</Description>
+    <Tags>CodeIgniter</Tags>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Url type="text/html" 
+    template="https://codeigniter.com/user_guide/search.html?q={searchTerms}&check_keywords=yes&area=default"/>
+	<Image height="16" width="16" type="image/x-icon">https://codeigniter.com/favicon.ico</Image>
+    <AdultContent>false</AdultContent>
+    <Language>en-us</Language>
+</OpenSearchDescription>
