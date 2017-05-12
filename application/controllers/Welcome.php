@@ -42,27 +42,29 @@ class Welcome extends Application {
 		$this->data['features1'] = array(
 			array('icon' => 'star-empty', 'label' => 'Framework with a small footprint',
 				'text' => 'CodeIgniter 3 has a 2MB download, including the user guide.'),
-			array('icon' => 'book', 'label' => 'Clear documentation',
-				'text' => 'The CodeIgniter User Guide comes with the download. It contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.'),
-			array('icon' => 'hdd', 'label' => 'Compatibility with standard hosting',
-				'text' => 'CodeIgniter 3 only needs PHP 5.3.7, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
-			array('icon' => 'road', 'label' => 'No restrictive coding rules',
-				'text' => ' Use your own coding and naming conventions, with only a few caveats that deal with classname conflicts. CodeIgniter looks to empower you, not shackle you.'),
 			array('icon' => 'send', 'label' => 'Simple solutions over complexity',
 				'text' => 'CodeIgniter encourages MVC, but does not force it on you.'),
+			array('icon' => 'book', 'label' => 'Clear documentation',
+				'text' => 'The CodeIgniter User Guide comes with the download. It contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.'),
+			//array('icon' => 'hdd', 'label' => 'Compatibility with standard hosting',
+			//	'text' => 'CodeIgniter 3 only needs PHP 5.3.7, and plays nicely with almost all shared or dedicated hosting platforms. Many webapps need a database, and CodeIgniter supports the most common, including MySQL.'),
+			//array('icon' => 'road', 'label' => 'No restrictive coding rules',
+			//	'text' => ' Use your own coding and naming conventions, with only a few caveats that deal with classname conflicts. CodeIgniter looks to empower you, not shackle you.'),
 		);
 
 		$this->data['features2'] = array(
 			array('icon' => 'dashboard', 'label' => 'Exceptional performance',
 				'text' => 'CodeIgniter consistently outperforms most of its competitors.'),
-			array('icon' => 'ok', 'label' => 'No large-scale monolithic libraries',
-				'text' => 'CodeIgniter is not trying to be all things to all people. It is a lean MVC framework, with enough capabilities to improve your productivity, while providing for third-party addons/plugins for additional functionality.'),
+			array('icon' => 'lock', 'label' => 'Strong Security',
+				'text' => 'We take security seriously, with built-in protection against CSRF and XSS attacks.'),
 			array('icon' => 'list-alt', 'label' => 'Nearly zero configuration',
 				'text' => ' Much of the CodeIgniter configuration is done by convention, for instance putting models in a "models" folder. There are still a number of configuration options available, through scripts in the "config" folder.'),
-			array('icon' => 'leaf', 'label' => 'No need for template language',
-				'text' => ' CodeIgniter comes with a simple, substitution based, templating tool. Addons/plugins are available for most of the full-blown templating engines, if that is what you are used to.'),
-			array('icon' => 'thumbs-up', 'label' => 'Spend more time away from the computer',
-				'text' => 'Don\'t we all want it? CodeIgniter is easy to learn and to get proficient with.'),
+			//array('icon' => 'thumbs-up', 'label' => 'Spend more time away from the computer',
+			//	'text' => 'Don\'t we all want it? CodeIgniter is easy to learn and to get proficient with.'),
+			//array('icon' => 'leaf', 'label' => 'No need for template language',
+			//	'text' => ' CodeIgniter comes with a simple, substitution based, templating tool. Addons/plugins are available for most of the full-blown templating engines, if that is what you are used to.'),
+			//array('icon' => 'ok', 'label' => 'No large-scale monolithic libraries',
+			//	'text' => 'CodeIgniter is not trying to be all things to all people. It is a lean MVC framework, with enough capabilities to improve your productivity, while providing for third-party addons/plugins for additional functionality.'),
 		);
 
 		// Grab our forum information
