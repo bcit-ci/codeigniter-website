@@ -5,7 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * Encapsulation of the addins data, however it is stored.
  */
-class Goodies extends CI_Model {
+class Goodies extends CI_Model
+{
 
 	/**
 	 * Are we running in mock mode? 
@@ -19,26 +20,62 @@ class Goodies extends CI_Model {
 	 * If so, fake database results.
 	 * @var array
 	 */
-	//FIXME Need "real" mock data
+//FIXME Need "real" mock data
 	protected $mockData = array(
 		/**
 		 * Bogus categories
 		 */
 		'bogus_categories' => array(
-			['code' => 'auth', 'name' => 'Authentication'],
-			['code' => 'temp', 'name' => 'Templating'],
-			['code' => 'asst', 'name' => 'Asset management'],
-			['code' => 'strt', 'name' => 'Starters'],
+			['code' => 'asset', 'name' => 'Asset management', 'description' => 'Asset & media management'],
+			['code' => 'auth', 'name' => 'Authentication', 'description' => 'Authentication addins, including Oauth'],
+			['code' => 'cli', 'name' => 'CLI tools', 'description' => 'Command line tools'],
+			['code' => 'data', 'name' => 'Storgae', 'description' => 'Database or storage adapters & ORM'],
+			['code' => 'misc', 'name' => 'Miscellaneous', 'description' => 'Stuff that won\'t fit anywhere else'],
+			['code' => 'shop', 'name' => 'E-Commerce', 'description' => 'E-commerce or shopping cart'],
+			['code' => 'start', 'name' => 'Starters', 'description' => 'Bundles intended for use as project starters'],
+			['code' => 'templ', 'name' => 'Templating', 'description' => 'View templating engines'],
+			['code' => 'test', 'name' => 'Testing', 'description' => 'Testing & debugging tools'],
 		),
 		/**
-		 * Bogus posts for testing.
+		 * Bogus addins for testing.
 		 */
 		'bogus_addins' => array(
-			'123' => ['id'=>123, 'name' => 'Caboose', 'desc' => 'This is the most wonderful yada yada thing since sliced bread', 'icon' => 'abc.png', 'main' => 'asst', 'others' => 'strt', 'link' => '', 'version' => '', 'kind' => ''],
-		)
+			'123' => [
+				'id' => 123,
+				'name' => 'Caboose',
+				'desc' => 'This is the most wonderful yada yada thing since sliced bread',
+				'version' => '',
+				'asof' => '',
+				'icon' => 'caboose.png',
+				'main' => 'asset',
+				'others' => '',
+				'link' => '',
+				'home' => '',
+				'docs' => '',
+				'author' => '',
+				'version' => '',
+				'kind' => '',
+				'license' => '',
+			],
+		),
+		/**
+		 * Bogus versions for testing.
+		 */
+		'bogus_versions' => array(
+			'3' => ['version' => 3, 'latest' => '3.1.4', 'asof' => '', 'download' => ''],
+			'4' => ['version' => 4, 'latest' => '4.0.0alpha', 'asof' => '', 'download' => ''],
+		),
+		/**
+		 * Bogus addin kinds for testing.
+		 */
+		'bogus_kinds' => array(
+			['kind' => 'comp', 'name' => 'Composer', 'description' => 'Composer-installed addin'],
+			['kind' => 'pkg', 'name' => 'Package', 'description' => 'CodeIgniter package'],
+			['kind' => 'source', 'name' => 'Source', 'description' => 'Source code provided'],
+		),
 	);
 
-	//--------------------------------------------------------------------
+//--------------------------------------------------------------------
 
 	/**
 	 * Constructor.
@@ -48,12 +85,14 @@ class Goodies extends CI_Model {
 	{
 		parent::__construct();
 
-		// If not running in production, nothing further to do
+// If not running in production, nothing further to do
 		$this->mock = ENVIRONMENT != 'production';
 		if ($this->mock)
 			return;
 
-//		$this->load->database('mybb');
+//		$this->load->database('mybb
+
+		');
 	}
 
 	//--------------------------------------------------------------------
@@ -67,7 +106,8 @@ class Goodies extends CI_Model {
 	{
 		// If not running in production, return the mock data
 		if ($this->mock)
-			$stuff = $this->mockData['bogus_categories'];
+			
+		$stuff = $this->mockData['bogus_categories'];
 		else
 		{
 			// retrieve the real data
@@ -89,7 +129,10 @@ class Goodies extends CI_Model {
 	{
 		// If not running in production, return the mock data
 		if ($this->mock)
-			$stuff = $this->mockData['bogus_addins'];
+			$st
+		uff = $this->mockData['bogus_addins
+
+		'];
 		else
 		{
 			// retrieve the real data
@@ -111,7 +154,10 @@ class Goodies extends CI_Model {
 	{
 		// If not running in production, return the mock data
 		if ($this->mock)
-			return $this->mockData['bogus_addins'][$id];
+			ret
+		urn $this->mockData['bogus_addins
+
+		'][$id];
 	}
 
 }
