@@ -22,14 +22,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 		<p>BCIT and BRITISH COLUMBIA INSTITUTE OF TECHNOLOGY and the distinctive marks 
 			(e.g. the BCIT logo) are registered trademarks of the 
-			British Columbia Institute of Technology</p>
+			British Columbia Institute of Technology.</p>
 	</div>
 
 	<div class="row">
 		<div class="lead text-info">CodeIgniter Logo Guidelines and Usage</div>
 		<p>
 			You are welcome to use 
-			the CodeIgniter logo in your project, provided that you ...</p>
+			the CodeIgniter logo in your project, provided that you:</p>
 		<ul>
 			<li>Do not make unauthorized or confusing use of the CodeIgniter trademark 
 				or a variation of it, including creating the impression that BCIT 
@@ -58,12 +58,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>
 	<div class="row">
 		<div class="lead text-info">Third Party Companies and Products</div>
-		<p>Mention of third party companies and products on this web site is for 
+		<p>Mention of third party companies and products on this website is for 
 			informational purposes only and constitutes neither an endorsement nor a recommendation.</p>
 	</div>
 
 	<div class="row">
-		<div class="lead text-info">Links to Other Web Sites</div>
+		<div class="lead text-info">Links to Other Websites</div>
 		<p>BCIT makes no representations whatsoever about any other websites which 
 			you may access from here. When you access a non-BCIT website, 
 			please understand that it is independent from the BCIT website and
@@ -71,6 +71,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			A link to a non-BCIT website does not mean that BCIT endorses or accepts 
 			any responsibility for the content or use of such website.</p>
 		<br/>
-		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/copyright/" target="_blank" rel="noopener noreferrer"><i class="icon-share"></i> copyright and legals page</a></p>
+		<p>We invite you to read BCIT's <a href="http://www.bcit.ca/copyright/" target="_blank" rel="noopener noreferrer"><i class="icon-share"></i> copyright and legal page</a>.</p>
 	</div>
 </div>

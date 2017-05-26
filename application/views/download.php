@@ -41,8 +41,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					CodeIgniter 2.2.6 is the legacy version of the framework.<br><br>
 					The 2.x branch was originally released January 2011, 
 					the next major update (2.1.0) came in the fall of 2011, 
-					version (2.2.0) came out in July, 2014, and
-					the current version (2.2.6) came out in October, 2015.<br><br>
+					version (2.2.0) came out in July 2014, and
+					the current version (2.2.6) came out in October 2015.<br><br>
 					CodeIgniter 2 has reached its end-of-life for support and updates, 
 					as of October 31, 2015. No further updates are planned.<br/>
 					We encourage you to upgrade to CodeIgniter 3.x!<br/><br/>
