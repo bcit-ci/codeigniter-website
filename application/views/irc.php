@@ -19,5 +19,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<br/>
 
-	<iframe src="https://webchat.freenode.net?channels=%23codeigniter&uio=d4" width="850" height="500" style="margin: 0 auto; display: block;"></iframe>
+	<iframe src="https://webchat.freenode.net?channels=%23codeigniter&uio=d4" width="850" height="500" style="margin: 0 auto; display: block;" sandbox="allow-forms allow-scripts allow-same-origin"></iframe>
 </div>

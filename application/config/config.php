@@ -9,7 +9,8 @@ $config['menu_choices'] = array(
 		array('name' => 'Download', 'link' => '/download'),
 		array('name' => 'Documentation', 'link' => '/docs'),
 		array('name' => 'Community', 'link' => '/community'),
-		array('name' => 'Contribute', 'link' => '/contribute')
+		array('name' => 'Contribute', 'link' => '/contribute'),
+//		array('name' => 'Addins', 'link' => '/addins')
 	)
 );
 
@@ -390,8 +391,8 @@ $config['sess_regenerate_destroy'] = FALSE;
 $config['cookie_prefix'] = '';
 $config['cookie_domain'] = '';
 $config['cookie_path'] = '/';
-$config['cookie_secure'] = FALSE;
-$config['cookie_httponly'] = FALSE;
+$config['cookie_secure'] = TRUE;
+$config['cookie_httponly'] = TRUE;
 
 /*
   |--------------------------------------------------------------------------
