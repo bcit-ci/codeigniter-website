@@ -10,7 +10,7 @@ $config['menu_choices'] = array(
 		array('name' => 'Documentation', 'link' => '/docs'),
 		array('name' => 'Community', 'link' => '/community'),
 		array('name' => 'Contribute', 'link' => '/contribute'),
-		array('name' => 'Addins', 'link' => '/addins')
+//		array('name' => 'Addins', 'link' => '/addins')
 	)
 );
 
