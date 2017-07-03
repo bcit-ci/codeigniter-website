@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="well download">
 					<h3 class="text-center">CodeIgniter 3.x</h3>
 
-					CodeIgniter 3.1.4 is the current version of the framework.<br><br>
+					CodeIgniter 3.1.5 is the current version of the framework.<br><br>
 					There have been a number of refinements since version 2.x, notably with
 					the database, session handling and encryption. Development of this version is ongoing.<br><br>
 
