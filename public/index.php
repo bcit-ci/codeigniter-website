@@ -57,6 +57,13 @@ define('ENVIRONMENT', (($_SERVER['SERVER_NAME'] == 'codeigniter.com') ||
 	($_SERVER['SERVER_NAME'] == 'www.codeigniter.com'))? 
 	'production' : 'development');
 
+if (ENVIRONMENT === 'production' && isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] !== 'https')
+{
+	header('301 Moved Permanently HTTP/1.1');
+	header('Location: https://codeigniter.com'.$_SERVER['REQUEST_URI']);
+	exit;
+}
+
 /*
  * ---------------------------------------------------------------
  * ERROR REPORTING
