@@ -53,21 +53,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div class="col-md-6 col-sm-6">
 			<div class="bs-component">
 				<div class="well download">
-					<h3>IRC.</h3>
+					<h3>Slack.</h3>
 
 					<p>
-						CodeIgniter has its own Internet Relay Chat channel, #codeigniter.<br>
-						You can connect to it using your favorite IRC client, or use
-						<a href="https://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22">webchat</a>.
-					</p>
-					<p>The IRC channel will often have over 80 people in it, but many of those
-						are in different timezones, and they stay logged in to catch up
-						on conversations when they are next around.
-						If you are new to IRC, read this
-						<a href="https://workaround.org/getting-help-on-irc" target="_blank" rel="noopener noreferrer">introduction</a>
-						first.</p>
-					<a class="btn btn-info btn-block" href="https://webchat.freenode.net/?channels=%23codeigniter&uio=d4%22" target="_blank" rel="noopener noreferrer">
-						<span class="glyphicon glyphicon-share"></span> Visit IRC</a>
+						CodeIgniter has a Slack channel, where you can engage 
+						with other members of the community.</p>
+					<a class="btn btn-info btn-block" href="https://codeigniterchat.slack.com" target="_blank" rel="noopener noreferrer">
+						<span class="glyphicon glyphicon-share"></span> Visit Slack</a>
 				</div>
 			</div>
 		</div>
