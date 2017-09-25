@@ -86,7 +86,7 @@ Resources
 -  `User Guide <https://codeigniter.com/userguide3/>`_
 -  `Community Forums <https://forum.codeigniter.com/>`_
 -  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki/>`_
--  `Community IRC <https://codeigniter.com/irc>`_
+-  `Community Slack Channel <https://codeigniterchat.slack.com>`_
 
 ***************
 Acknowledgement

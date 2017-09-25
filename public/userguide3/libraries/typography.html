@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Typography Class &mdash; CodeIgniter 3.1.5 documentation</title>
+  <title>Typography Class &mdash; CodeIgniter 3.1.6 documentation</title>
   
 
   
@@ -30,7 +30,10 @@
   
 
   
-    <link rel="top" title="CodeIgniter 3.1.5 documentation" href="../index.html"/>
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="CodeIgniter 3.1.6 documentation" href="../index.html"/>
         <link rel="up" title="Libraries" href="index.html"/>
         <link rel="next" title="Unit Testing Class" href="unit_testing.html"/>
         <link rel="prev" title="Trackback Class" href="trackback.html"/> 
@@ -49,9 +52,7 @@
     
       <div id="pulldown-menu" class="ciNav">
         <ul>
-<li class="toctree-l1"><a class="reference internal" href="../general/welcome.html">Welcome to CodeIgniter</a><ul class="simple">
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../general/welcome.html">Welcome to CodeIgniter</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation/index.html">Installation Instructions</a><ul>
@@ -85,7 +86,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">Contributing to CodeIgniter</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../documentation/index.html">Writing CodeIgniter Documentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../DCO.html">Developer&#8217;s Certificate of Origin 1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../DCO.html">Developer’s Certificate of Origin 1.1</a></li>
 </ul>
 </li>
 </ul>
@@ -146,7 +147,7 @@
 <li class="toctree-l2"><a class="reference internal" href="sessions.html">Session Library</a></li>
 <li class="toctree-l2"><a class="reference internal" href="table.html">HTML Table Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="trackback.html">Trackback Class</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Typography Class</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Typography Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Testing Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="uri.html">URI Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="user_agent.html">User Agent Class</a></li>
@@ -235,9 +236,7 @@
           
           
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="../general/welcome.html">Welcome to CodeIgniter</a><ul class="simple">
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../general/welcome.html">Welcome to CodeIgniter</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation/index.html">Installation Instructions</a><ul>
@@ -271,7 +270,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../contributing/index.html">Contributing to CodeIgniter</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../documentation/index.html">Writing CodeIgniter Documentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../DCO.html">Developer&#8217;s Certificate of Origin 1.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../DCO.html">Developer’s Certificate of Origin 1.1</a></li>
 </ul>
 </li>
 </ul>
@@ -332,7 +331,7 @@
 <li class="toctree-l2"><a class="reference internal" href="sessions.html">Session Library</a></li>
 <li class="toctree-l2"><a class="reference internal" href="table.html">HTML Table Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="trackback.html">Trackback Class</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="">Typography Class</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Typography Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="unit_testing.html">Unit Testing Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="uri.html">URI Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="user_agent.html">User Agent Class</a></li>
@@ -440,7 +439,7 @@
 <div class="section" id="initializing-the-class">
 <h3><a class="toc-backref" href="#id2">Initializing the Class</a><a class="headerlink" href="#initializing-the-class" title="Permalink to this headline">¶</a></h3>
 <p>Like most other classes in CodeIgniter, the Typography class is
-initialized in your controller using the <tt class="docutils literal"><span class="pre">$this-&gt;load-&gt;library()</span></tt> method:</p>
+initialized in your controller using the <code class="docutils literal"><span class="pre">$this-&gt;load-&gt;library()</span></code> method:</p>
 <div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">library</span><span class="p">(</span><span class="s1">&#39;typography&#39;</span><span class="p">);</span>
 </pre></div>
 </div>
@@ -454,13 +453,13 @@ initialized in your controller using the <tt class="docutils literal"><span clas
 <h2><a class="toc-backref" href="#id3">Class Reference</a><a class="headerlink" href="#class-reference" title="Permalink to this headline">¶</a></h2>
 <dl class="class">
 <dt id="CI_Typography">
-<em class="property">class </em><tt class="descname">CI_Typography</tt><a class="headerlink" href="#CI_Typography" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="descname">CI_Typography</code><a class="headerlink" href="#CI_Typography" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="attribute">
 <dt>
-<tt class="descname">$protect_braced_quotes = FALSE</tt></dt>
-<dd><p>When using the Typography library in conjunction with the <a class="reference internal" href="parser.html"><em>Template Parser library</em></a>
+<code class="descname">$protect_braced_quotes = FALSE</code></dt>
+<dd><p>When using the Typography library in conjunction with the <a class="reference internal" href="parser.html"><span class="doc">Template Parser library</span></a>
 it can often be desirable to protect single and double quotes within curly braces.
-To enable this, set the <tt class="docutils literal"><span class="pre">protect_braced_quotes</span></tt> class property to TRUE.</p>
+To enable this, set the <code class="docutils literal"><span class="pre">protect_braced_quotes</span></code> class property to TRUE.</p>
 <p>Usage example:</p>
 <div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$this</span><span class="o">-&gt;</span><span class="na">load</span><span class="o">-&gt;</span><span class="na">library</span><span class="p">(</span><span class="s1">&#39;typography&#39;</span><span class="p">);</span>
 <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">typography</span><span class="o">-&gt;</span><span class="na">protect_braced_quotes</span> <span class="o">=</span> <span class="k">TRUE</span><span class="p">;</span>
@@ -470,14 +469,14 @@ To enable this, set the <tt class="docutils literal"><span class="pre">protect_b
 
 <dl class="method">
 <dt id="CI_Typography::auto_typography">
-<tt class="descname">auto_typography</tt><big>(</big><em>$str</em><span class="optional">[</span>, <em>$reduce_linebreaks = FALSE</em><span class="optional">]</span><big>)</big><a class="headerlink" href="#CI_Typography::auto_typography" title="Permalink to this definition">¶</a></dt>
+<code class="descname">auto_typography</code><span class="sig-paren">(</span><em>$str</em><span class="optional">[</span>, <em>$reduce_linebreaks = FALSE</em><span class="optional">]</span><span class="sig-paren">)</span><a class="headerlink" href="#CI_Typography::auto_typography" title="Permalink to this definition">¶</a></dt>
 <dd><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>$str</strong> (<em>string</em>) &#8211; Input string</li>
-<li><strong>$reduce_linebreaks</strong> (<em>bool</em>) &#8211; Whether to reduce consequitive linebreaks</li>
+<li><strong>$str</strong> (<em>string</em>) – Input string</li>
+<li><strong>$reduce_linebreaks</strong> (<em>bool</em>) – Whether to reduce consequitive linebreaks</li>
 </ul>
 </td>
 </tr>
@@ -498,7 +497,7 @@ Takes a string as input and returns it with the following formatting:</p>
 <li>Block level elements, like &lt;div&gt; tags, are not wrapped within paragraphs, but their contained text is if it contains paragraphs.</li>
 <li>Quotes are converted to correctly facing curly quote entities, except those that appear within tags.</li>
 <li>Apostrophes are converted to curly apostrophe entities.</li>
-<li>Double dashes (either like &#8211; this or like&#8211;this) are converted to em—dashes.</li>
+<li>Double dashes (either like – this or like–this) are converted to em—dashes.</li>
 <li>Three consecutive periods either preceding or following a word are converted to ellipsis (…).</li>
 <li>Double spaces following sentences are converted to non-breaking spaces to mimic double spacing.</li>
 </ul>
@@ -515,19 +514,19 @@ Pass boolean TRUE to enable reducing line breaks:</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">Typographic formatting can be processor intensive, particularly if you have a lot of content being formatted.
-If you choose to use this method you may want to consider <a class="reference internal" href="../general/caching.html"><em>caching</em></a> your pages.</p>
+If you choose to use this method you may want to consider <a class="reference internal" href="../general/caching.html"><span class="doc">caching</span></a> your pages.</p>
 </div>
 </dd></dl>
 
 <dl class="method">
 <dt id="CI_Typography::format_characters">
-<tt class="descname">format_characters</tt><big>(</big><em>$str</em><big>)</big><a class="headerlink" href="#CI_Typography::format_characters" title="Permalink to this definition">¶</a></dt>
+<code class="descname">format_characters</code><span class="sig-paren">(</span><em>$str</em><span class="sig-paren">)</span><a class="headerlink" href="#CI_Typography::format_characters" title="Permalink to this definition">¶</a></dt>
 <dd><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>$str</strong> (<em>string</em>) &#8211; Input string</li>
+<li><strong>$str</strong> (<em>string</em>) – Input string</li>
 </ul>
 </td>
 </tr>
@@ -539,12 +538,12 @@ If you choose to use this method you may want to consider <a class="reference in
 </tr>
 </tbody>
 </table>
-<p>This method is similar to <tt class="docutils literal"><span class="pre">auto_typography()</span></tt> above, except that it only does character conversion:</p>
+<p>This method is similar to <code class="docutils literal"><span class="pre">auto_typography()</span></code> above, except that it only does character conversion:</p>
 <blockquote>
 <div><ul class="simple">
 <li>Quotes are converted to correctly facing curly quote entities, except those that appear within tags.</li>
 <li>Apostrophes are converted to curly apostrophe entities.</li>
-<li>Double dashes (either like &#8211; this or like&#8211;this) are converted to em—dashes.</li>
+<li>Double dashes (either like – this or like–this) are converted to em—dashes.</li>
 <li>Three consecutive periods either preceding or following a word are converted to ellipsis (…).</li>
 <li>Double spaces following sentences are converted to non-breaking spaces to mimic double spacing.</li>
 </ul>
@@ -557,13 +556,13 @@ If you choose to use this method you may want to consider <a class="reference in
 
 <dl class="method">
 <dt id="CI_Typography::nl2br_except_pre">
-<tt class="descname">nl2br_except_pre</tt><big>(</big><em>$str</em><big>)</big><a class="headerlink" href="#CI_Typography::nl2br_except_pre" title="Permalink to this definition">¶</a></dt>
+<code class="descname">nl2br_except_pre</code><span class="sig-paren">(</span><em>$str</em><span class="sig-paren">)</span><a class="headerlink" href="#CI_Typography::nl2br_except_pre" title="Permalink to this definition">¶</a></dt>
 <dd><table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
 <tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>$str</strong> (<em>string</em>) &#8211; Input string</li>
+<li><strong>$str</strong> (<em>string</em>) – Input string</li>
 </ul>
 </td>
 </tr>
@@ -576,7 +575,7 @@ If you choose to use this method you may want to consider <a class="reference in
 </tbody>
 </table>
 <p>Converts newlines to &lt;br /&gt; tags unless they appear within &lt;pre&gt; tags.
-This method is identical to the native PHP <tt class="xref php php-func docutils literal"><span class="pre">nl2br()</span></tt> function, except that it ignores &lt;pre&gt; tags.</p>
+This method is identical to the native PHP <code class="xref php php-func docutils literal"><span class="pre">nl2br()</span></code> function, except that it ignores &lt;pre&gt; tags.</p>
 <p>Usage example:</p>
 <div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$string</span> <span class="o">=</span> <span class="nv">$this</span><span class="o">-&gt;</span><span class="na">typography</span><span class="o">-&gt;</span><span class="na">nl2br_except_pre</span><span class="p">(</span><span class="nv">$string</span><span class="p">);</span>
 </pre></div>
@@ -607,7 +606,7 @@ This method is identical to the native PHP <tt class="xref php php-func docutils
   <div role="contentinfo">
     <p>
         &copy; Copyright 2014 - 2017, British Columbia Institute of Technology.
-      Last updated on Jun 19, 2017.
+      Last updated on Sep 25, 2017.
     </p>
   </div>
 
@@ -628,7 +627,7 @@ This method is identical to the native PHP <tt class="xref php php-func docutils
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'3.1.5',
+            VERSION:'3.1.6',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
             HAS_SOURCE:  false
