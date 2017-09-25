@@ -57,7 +57,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 					<p>
 						CodeIgniter has a Slack channel, where you can engage 
-						with other members of the community.</p>
+						with other members of the community.
+					Anyone can <a href="http://codeignitersignup.ciblox.com/" target="_blank" 
+									  rel="noopener noreferrer">signup</a> for it :)</p>
 					<a class="btn btn-info btn-block" href="https://codeigniterchat.slack.com" target="_blank" rel="noopener noreferrer">
 						<span class="glyphicon glyphicon-share"></span> Visit Slack</a>
 				</div>

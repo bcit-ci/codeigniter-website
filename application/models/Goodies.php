@@ -1,5 +1,4 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
@@ -25,7 +24,7 @@ class Goodies extends CI_Model
 		/**
 		 * Bogus categories
 		 */
-		'bogus_categories' => array(
+		'bogus_categories'	 => array(
 			['code' => 'asset', 'name' => 'Asset management', 'description' => 'Asset & media management'],
 			['code' => 'auth', 'name' => 'Authentication', 'description' => 'Authentication addins, including Oauth'],
 			['code' => 'cli', 'name' => 'CLI tools', 'description' => 'Command line tools'],
@@ -39,36 +38,36 @@ class Goodies extends CI_Model
 		/**
 		 * Bogus addins for testing.
 		 */
-		'bogus_addins' => array(
+		'bogus_addins'		 => array(
 			'123' => [
-				'id' => 123,
-				'name' => 'Caboose',
-				'desc' => 'This is the most wonderful yada yada thing since sliced bread',
-				'version' => '',
-				'asof' => '',
-				'icon' => 'caboose.png',
-				'main' => 'asset',
-				'others' => '',
-				'link' => '',
-				'home' => '',
-				'docs' => '',
-				'author' => '',
-				'version' => '',
-				'kind' => '',
-				'license' => '',
+				'id'		 => 123,
+				'name'		 => 'Caboose',
+				'desc'		 => 'This is the most wonderful yada yada thing since sliced bread',
+				'version'	 => '',
+				'asof'		 => '',
+				'icon'		 => 'caboose.png',
+				'main'		 => 'asset',
+				'others'	 => '',
+				'link'		 => '',
+				'home'		 => '',
+				'docs'		 => '',
+				'author'	 => '',
+				'version'	 => '',
+				'kind'		 => '',
+				'license'	 => '',
 			],
 		),
 		/**
 		 * Bogus versions for testing.
 		 */
-		'bogus_versions' => array(
-			'3' => ['version' => 3, 'latest' => '3.1.4', 'asof' => '', 'download' => ''],
-			'4' => ['version' => 4, 'latest' => '4.0.0alpha', 'asof' => '', 'download' => ''],
+		'bogus_versions'	 => array(
+			'3'	 => ['version' => 3, 'latest' => '3.1.4', 'asof' => '', 'download' => ''],
+			'4'	 => ['version' => 4, 'latest' => '4.0.0alpha', 'asof' => '', 'download' => ''],
 		),
 		/**
 		 * Bogus addin kinds for testing.
 		 */
-		'bogus_kinds' => array(
+		'bogus_kinds'		 => array(
 			['kind' => 'comp', 'name' => 'Composer', 'description' => 'Composer-installed addin'],
 			['kind' => 'pkg', 'name' => 'Package', 'description' => 'CodeIgniter package'],
 			['kind' => 'source', 'name' => 'Source', 'description' => 'Source code provided'],
@@ -90,9 +89,7 @@ class Goodies extends CI_Model
 		if ($this->mock)
 			return;
 
-//		$this->load->database('mybb
-
-		');
+//		$this->load->database('mybb');
 	}
 
 	//--------------------------------------------------------------------
@@ -106,8 +103,7 @@ class Goodies extends CI_Model
 	{
 		// If not running in production, return the mock data
 		if ($this->mock)
-			
-		$stuff = $this->mockData['bogus_categories'];
+			$stuff = $this->mockData['bogus_categories'];
 		else
 		{
 			// retrieve the real data
@@ -129,10 +125,7 @@ class Goodies extends CI_Model
 	{
 		// If not running in production, return the mock data
 		if ($this->mock)
-			$st
-		uff = $this->mockData['bogus_addins
-
-		'];
+			$stuff = $this->mockData['bogus_addins'];
 		else
 		{
 			// retrieve the real data
@@ -154,10 +147,7 @@ class Goodies extends CI_Model
 	{
 		// If not running in production, return the mock data
 		if ($this->mock)
-			ret
-		urn $this->mockData['bogus_addins
-
-		'][$id];
+			return $this->mockData['bogus_addins'][$id];
 	}
 
 }
