@@ -25,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					<p>CodeIgniter 3.x is licensed under the 
 						<a href="/user_guide/license.html">MIT License</a>.</p>
 					<a href="/user_guide" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-share"></span> Read the User Guide online</a>
-					<a href="/data/CodeIgniter-3.1.7-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide</a>
-					<a href="/data/CodeIgniter User Guide 3.1.7.epub" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the epub format U.G.</a>
+					<a href="/data/CodeIgniter-3.1.8-userguide.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the User Guide</a>
+					<a href="/data/CodeIgniter User Guide 3.1.8.epub" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download the epub format U.G.</a>
 
 				</div>
 			</div>
