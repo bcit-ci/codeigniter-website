@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Upgrading from 1.5.3 to 1.5.4 &mdash; CodeIgniter 3.1.9 documentation</title>
+  <title>Upgrading from 3.1.8 to 3.1.9 &mdash; CodeIgniter 3.1.9 documentation</title>
   
 
   
@@ -35,8 +35,8 @@
         <link rel="search" title="Search" href="../search.html"/>
     <link rel="top" title="CodeIgniter 3.1.9 documentation" href="../index.html"/>
         <link rel="up" title="Upgrading From a Previous Version" href="upgrading.html"/>
-        <link rel="next" title="Upgrading from 1.5.2 to 1.5.3" href="upgrade_153.html"/>
-        <link rel="prev" title="Upgrading from 1.5.4 to 1.6.0" href="upgrade_160.html"/> 
+        <link rel="next" title="Upgrading from 3.1.7 to 3.1.8" href="upgrade_318.html"/>
+        <link rel="prev" title="Upgrading From a Previous Version" href="upgrading.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -412,7 +412,7 @@
       
         <li><a href="upgrading.html">Upgrading From a Previous Version</a> &raquo;</li>
       
-    <li>Upgrading from 1.5.3 to 1.5.4</li>
+    <li>Upgrading from 3.1.8 to 3.1.9</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -424,56 +424,23 @@
 </div>
           <div role="main" class="document">
             
-  <div class="section" id="upgrading-from-1-5-3-to-1-5-4">
-<h1>Upgrading from 1.5.3 to 1.5.4<a class="headerlink" href="#upgrading-from-1-5-3-to-1-5-4" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="upgrading-from-3-1-8-to-3-1-9">
+<h1>Upgrading from 3.1.8 to 3.1.9<a class="headerlink" href="#upgrading-from-3-1-8-to-3-1-9" title="Permalink to this headline">¶</a></h1>
 <p>Before performing an update you should take your site offline by
 replacing the index.php file with a static one.</p>
 <div class="section" id="step-1-update-your-codeigniter-files">
 <h2>Step 1: Update your CodeIgniter files<a class="headerlink" href="#step-1-update-your-codeigniter-files" title="Permalink to this headline">¶</a></h2>
-<p>Replace these files and directories in your “system” folder with the new
-versions:</p>
-<ul class="simple">
-<li>application/config/mimes.php</li>
-<li>system/codeigniter</li>
-<li>system/database</li>
-<li>system/helpers</li>
-<li>system/libraries</li>
-<li>system/plugins</li>
-</ul>
+<p>Replace all files and directories in your <em>system/</em> directory.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">If you have any custom developed files in these folders please
-make copies of them first.</p>
+<p class="last">If you have any custom developed files in these directories,
+please make copies of them first.</p>
 </div>
+<div class="section" id="step-3-replace-config-mimes-php">
+<h3>Step 3: Replace config/mimes.php<a class="headerlink" href="#step-3-replace-config-mimes-php" title="Permalink to this headline">¶</a></h3>
+<p>This config file has received some updates. Please copy it to
+<em>application/config/mimes.php</em>.</p>
 </div>
-<div class="section" id="step-2-add-charset-to-your-config-php">
-<h2>Step 2: Add charset to your config.php<a class="headerlink" href="#step-2-add-charset-to-your-config-php" title="Permalink to this headline">¶</a></h2>
-<p>Add the following to application/config/config.php</p>
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="cm">/*</span>
-<span class="cm">|--------------------------------------------------------------------------</span>
-<span class="cm">| Default Character Set</span>
-<span class="cm">|--------------------------------------------------------------------------</span>
-<span class="cm">|</span>
-<span class="cm">| This determines which character set is used by default in various methods</span>
-<span class="cm">| that require a character set to be provided.</span>
-<span class="cm">|</span>
-<span class="cm">*/</span>
-<span class="nv">$config</span><span class="p">[</span><span class="s1">&#39;charset&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;UTF-8&quot;</span><span class="p">;</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="step-3-autoloading-language-files">
-<h2>Step 3: Autoloading language files<a class="headerlink" href="#step-3-autoloading-language-files" title="Permalink to this headline">¶</a></h2>
-<p>If you want to autoload any language files, add this line to
-application/config/autoload.php</p>
-<div class="highlight-ci"><div class="highlight"><pre><span></span><span class="nv">$autoload</span><span class="p">[</span><span class="s1">&#39;language&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="k">array</span><span class="p">();</span>
-</pre></div>
-</div>
-</div>
-<div class="section" id="step-4-update-your-user-guide">
-<h2>Step 4: Update your user guide<a class="headerlink" href="#step-4-update-your-user-guide" title="Permalink to this headline">¶</a></h2>
-<p>Please also replace your local copy of the user guide with the new
-version.</p>
 </div>
 </div>
 
@@ -483,10 +450,10 @@ version.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="upgrade_153.html" class="btn btn-neutral float-right" title="Upgrading from 1.5.2 to 1.5.3">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="upgrade_318.html" class="btn btn-neutral float-right" title="Upgrading from 3.1.7 to 3.1.8">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="upgrade_160.html" class="btn btn-neutral" title="Upgrading from 1.5.4 to 1.6.0"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="upgrading.html" class="btn btn-neutral" title="Upgrading From a Previous Version"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
