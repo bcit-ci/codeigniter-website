@@ -64,13 +64,6 @@ class Help extends Application {
 					array('badge' => 'github', 'handle' => 'lonnieezell')
 				),
 			),
-			array('name' => 'Mat Whitney', 'from' => 'USA',
-				'avatar' => 'mat.jpeg', 'roles' => 'CI4',
-				'description' => 'Open source contributor, Author',
-				'badges' => array(
-					array('badge' => 'github', 'handle' => 'mwhitneysdsu')
-				),
-			),
 		);
 
 		$this->render();

@@ -118,6 +118,7 @@ class Welcome extends Application {
 				// escape the subject
 				$item['subject'] = htmlentities($item['subject']);
 				$item['subject'] = strip_tags($item['subject']); // fix #79
+				$item['subject'] = str_replace('{','{ ',$item['subject']); // fix curly braces				
 			}
 			return $this->parser->parse('forum/_news', array('news' => $items), true);
 		} else
@@ -144,6 +145,7 @@ class Welcome extends Application {
 				// escape the subject
 				$item['subject'] = htmlentities($item['subject']);
 				$item['subject'] = strip_tags($item['subject']); // fix #79
+				$item['subject'] = str_replace('{','{ ',$item['subject']); // fix curly braces				
 			}
 			return $this->parser->parse('forum/_posts', array('posts' => $items), true);
 		} else

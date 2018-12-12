@@ -57,10 +57,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="well download">
 					<h3 class="text-center">CodeIgniter 4.x</h3>
 					CodeIgniter 4 is the upcoming version of the framework.<br><br>
-					Development is underway, with Phase 1 completed in June 2016.
-					It is *not* ready for production use - the current version
-					is considered "pre-alpha1".<br><br>
-					<a href="https://github.com/bcit-ci/CodeIgniter4" class="btn btn-success btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 4 on Github</a>
+					Development is underway, and we are currently in "alpha".<br><br>
+					<a href="https://github.com/codeigniter4/CodeIgniter4" class="btn btn-success btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 4 on Github</a>
 					<a href="http://forum.codeigniter.com/forum-27.html" class="btn btn-success btn-block"><i class="fa fa-comments"></i> Join the discussion on our forum!</a>
 				</div>
 			</div>

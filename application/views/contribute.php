@@ -45,8 +45,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="well download">
 					<h3>CodeIgniter 4</h3>
 					<p>CodeIgniter 4 has its own
-						<a href="https://github.com/bcit-ci/CodeIgniter4" target="_blank" rel="noopener noreferrer">Github repository</a>.
-						It deviates enough from CodeIgniter 3 that we want to keep them separate.
+						<a href="https://github.com/codeigniter4/CodeIgniter4" target="_blank" rel="noopener noreferrer">Github repository</a>.
 						The CodeIgniter 4 roadmap is explained on 
 						<a href="http://forum.codeigniter.com/forum-27.html" target="_blank" rel="noopener noreferrer">our forum</a>, 
 						and work to be done
@@ -130,8 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<div class="list-group-item">
 							<h4 class="list-group-item-heading">Reviewers</h4>
 							<p class="list-group-item-text">Every project needs a core group of developers, familiar with the project standards and conventions, to
-								review proposed enhancements and fixes. We have been really fortunate with our group of reviewers so far, and hope to recruit a few more.
-								Reviewers also have "commit" privileges for the code repository.</p>
+								review proposed enhancements and fixes. We have been really fortunate with our group of reviewers so far, and hope to recruit a few more.</p>
 						</div>
 					</div>
 
