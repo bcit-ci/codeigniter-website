@@ -29,7 +29,7 @@ class Welcome extends Application {
 		$this->data['pagebody'] = 'welcome';
 
 		$this->data['biglinks'] = array(
-			array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.1.9.zip',
+			array('icon' => 'download', 'link' => 'https://github.com/bcit-ci/CodeIgniter/archive/3.1.10.zip',
 				'label' => 'Download', 'text' => 'The latest is <b>Version ' . $this->config->item('stable_version') . '</b>'),
 			array('icon' => 'book', 'link' => 'https://www.codeigniter.com/user_guide',
 				'label' => 'Read the Manual', 'text' => 'Clear documentation'),

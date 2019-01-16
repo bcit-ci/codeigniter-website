@@ -23,12 +23,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 				<div class="well download">
 					<h3 class="text-center">CodeIgniter 3.x</h3>
 
-					CodeIgniter 3.1.9 is the current version of the framework.<br><br>
+					CodeIgniter 3.1.10 is the current version of the framework.<br><br>
 					There have been a number of refinements since version 2.x, notably with
 					the database, session handling and encryption. Development of this version is ongoing.<br><br>
 
 					<a href="https://github.com/bcit-ci/CodeIgniter" class="btn btn-primary btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 3 on Github</a>
-					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.1.9.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/archive/3.1.10.zip" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 3</a>
 					<a href="https://github.com/bcit-ci/codeigniter3-translations/releases/latest" class="btn btn-primary btn-block"><span class="glyphicon glyphicon-save"></span> Download System Message Translations</a>
 				</div>
 			</div>
