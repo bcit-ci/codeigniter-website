@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					CodeIgniter 2 has reached its end-of-life for support and updates, 
 					as of October 31, 2015. No further updates are planned.<br/>
 					We encourage you to upgrade to CodeIgniter 3.x!<br/><br/>
-					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2-stable" class="btn btn-warning btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 2 on Github</a>
+					<a href="https://github.com/bcit-ci/CodeIgniter/tree/2.2.6" class="btn btn-warning btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 2 on Github</a>
 					<a href="https://github.com/bcit-ci/CodeIgniter/archive/2.2.6.zip" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-save"></span> Download CodeIgniter 2</a>
 				</div>
 			</div>
@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					It is *not* ready for production use - the current version
 					is considered "pre-alpha1".<br><br>
 					<a href="https://github.com/bcit-ci/CodeIgniter4" class="btn btn-success btn-block"><i class="fa fa-github-square"></i> View CodeIgniter 4 on Github</a>
-					<a href="http://forum.codeigniter.com/forum-27.html" class="btn btn-success btn-block"><i class="fa fa-comments"></i> Join the discussion on our forum!</a>
+					<a href="https://forum.codeigniter.com/forumdisplay.php?fid=27" class="btn btn-success btn-block"><i class="fa fa-comments"></i> Join the discussion on our forum!</a>
 				</div>
 			</div>
 		</div>
