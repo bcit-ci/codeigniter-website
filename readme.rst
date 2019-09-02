@@ -2,13 +2,11 @@
 CodeIgniter Website
 ###################
 
-This is the official informational website for the 
+This **was** the official informational website for the 
 `CodeIgniter project <https://github.com/bcit-ci/CodeIgniter/>`_.
 
-The website has been open-sourced in the interest of transparency.
-We welcome issues and pull requests, to handle suggestions or corrections 
-to the style or structure of the website. 
-We will be a bit more reserved with the content :-/
+This repository is no longer in effect, replaced by the `CodeIgniter4
+version <https://github.com/codeigniter4projects/website2>`_.
 
 *****************
 Programming Style
