@@ -22,6 +22,7 @@ class Community extends Application {
 
 	function index()
 	{
+		echo "test";
 		$this->data['title'] = "CodeIgniter Community";
 		$this->data['pagebody'] = 'community';
 		$this->render();
