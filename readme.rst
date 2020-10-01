@@ -2,7 +2,7 @@
 CodeIgniter Website
 ###################
 
-This **was** the official informational website for the 
+This was an official descriptive website for the 
 `CodeIgniter project <https://github.com/bcit-ci/CodeIgniter/>`_.
 
 This repository is no longer in effect, replaced by the `CodeIgniter4
